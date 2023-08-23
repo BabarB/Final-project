@@ -5,14 +5,31 @@
     box-sizing: border-box;
 }
 
+/* General styling for body  */
 
-header{
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* General styling for project */
+
+    color: black;
+
+}
+
+
+header {
     background-color: aqua;
 }
 
-main{background-color: rgb(187, 255, 0);
+main {
+    background-color: rgb(187, 255, 0);
+    /* Make main element take up any surplus space to push footer down */
+    /* Taken from walkthrough project */
+    flex: 1 0 auto;
 }
 
-footer{
+footer {
     background-color: blue;
-    }
+}
