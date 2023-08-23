@@ -1,0 +1,18 @@
+/* Override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: aqua;
+}
+
+main{background-color: rgb(187, 255, 0);
+}
+
+footer{
+    background-color: blue;
+    }
