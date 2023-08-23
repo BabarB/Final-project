@@ -6,7 +6,6 @@
 </style>
 /* Override default styles added by the browser */
 
-/* ???????????????WHY IS THERE WHITE SPACE */
 
 * {
     padding: 0;
@@ -17,6 +16,7 @@
 /* General styling for body  */
 
 body {
+    margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,12 +28,12 @@ body {
 /* Header */
 header {
     background-color: yellow;
-    width: 100% padding: 0 1rem;
+    width: 100%;
+    padding: 0 1rem;
     /*what if i comment the below out*/
     position: fixed;
     z-index: 99;
     /* todo: why?????*/
-    width: 95%;
     box-shadow: 0 2px 4px #fc9d03;
     display: flex;
     justify-content: space-between;
@@ -43,6 +43,7 @@ header {
 header a {
 
     color: orange;
+    padding: 0 25px;
 }
 
 h1 {
@@ -93,6 +94,8 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     color: orange;
+    padding: 0 40px;
+
 }
 
 /* Main content */
@@ -130,7 +133,26 @@ footer {
         padding: 2rem;
     }
 
-        .nav-toggle-label {
-            display: none;
-        }
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        font-size: 200%;
+
+    }
+
+    header a {
+
+        padding: 0 30px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+
+    /* why does this not work.*/
+    #menu a:hover {
+        background-color: rgb(209, 161, 106);
+    }
 }
