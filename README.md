@@ -37,3 +37,9 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
+
+Taken from love running tutorial:
+
+meta tags
+Formattting of the nav menu includibng the toggling of menu items with pure css
