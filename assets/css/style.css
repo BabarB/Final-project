@@ -1,3 +1,8 @@
+/* Google fonts import */
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+</style>
+
 /* Override default styles added by the browser */
 * {
     padding: 0;
@@ -12,9 +17,11 @@ body {
     display: flex;
     flex-direction: column;
 
+
     /* General styling for project */
 
     color: black;
+    font-family: 'Dosis', sans-serif;
 
 }
 
