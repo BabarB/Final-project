@@ -1,6 +1,8 @@
 /* Google fonts import */
 
 <style>@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fjalla+One&display=swap');
+
 </style>
 
 /* Override default styles added by the browser */
@@ -28,6 +30,11 @@ body {
 
 header {
     background-color: aqua;
+
+    h1 {
+
+        font-family: 'Fjalla One', sans-serif;
+    }
 }
 
 main {
