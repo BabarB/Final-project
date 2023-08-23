@@ -28,8 +28,7 @@ body {
 /* Header */
 header {
     background-color: yellow;
-    width: 100% 
-    padding: 0 1rem;
+    width: 100% padding: 0 1rem;
     /*what if i comment the below out*/
     position: fixed;
     z-index: 99;
@@ -42,7 +41,7 @@ header {
 }
 
 header a {
-    
+
     color: orange;
 }
 
@@ -60,12 +59,12 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
 .active {
-   text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -83,14 +82,17 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
+
 }
 
 #nav-toggle {
     display: none;
+
 }
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: orange;
 }
 
 /* Main content */
@@ -98,10 +100,37 @@ main {
     background-color: lightgreen;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    /*fix error as per tutorial*/
+    margin-top: 75px;
+
 }
 
 /* Footer */
 footer {
     background-color: rgb(255, 0, 43);
+}
+
+/* Media query: tablets and larger  */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: inline-block;
+        position: relative;
+        width: fit-content;
+        box-shadow: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+
+        padding: 2rem;
+    }
+
+        .nav-toggle-label {
+            display: none;
+        }
 }
