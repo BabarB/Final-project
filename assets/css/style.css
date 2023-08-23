@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fjalla+One&display=swap');
 
 </style>
-
 /* Override default styles added by the browser */
 
 /* ???????????????WHY IS THERE WHITE SPACE */
@@ -33,18 +32,42 @@ body {
 
 header {
     background-color: yellow;
-    width: 100%
-    padding: 0 0;
-    position: fixed;
+    width: 100% padding: 0 0;
+    /*position: fixed;*/
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 4px #fc9d03;
-
-    h1 {
-
-        font-family: 'Fjalla One', sans-serif;
-    }
 }
+
+h1 {
+
+    font-family: 'Fjalla One', sans-serif;
+}
+
+header a {
+    color: #fc9d03;
+    font-style: oblique;
+}
+
+
+
+nav ul {
+    font-size: larger;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu li {
+
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.active {
+
+    text-decoration: underline;
+}
+
 
 main {
     background-color: rgb(187, 255, 0);
