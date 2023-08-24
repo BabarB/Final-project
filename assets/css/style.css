@@ -1,8 +1,11 @@
 /* Google fonts import */
 
- url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fjalla+One&display=swap');
-ide default styles added by the browser */
+
+
+/* Override default styles added by the browser */
+
 /* ???????????????WHY IS THERE WHITE SPACE */
 
 * {
@@ -139,16 +142,45 @@ footer {
 
     }
 
-    /* main {
-         slide down the main content.
-        margin-top: 270px;*/
-}
+
+
+        
 }
 
-@media screen and (min-width: 1025px) {
 
-    /* why does this not work.*/
-    #menu a:hover {
+/*#main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: left;
+    
+}
+.box img {
+    width: 100%;
+    height: auto;
+
+
+}
+*/
+
+  #menu a:hover {
         background-color: rgb(209, 161, 106);
+  }
+
+/*@media screen and (min-width: 900px) {
+
+    
+  
+
+    #main-container > div {
+        width: 50%;
+        flex-direction: row;
+    
     }
-}
+
+}*/
