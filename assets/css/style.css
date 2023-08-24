@@ -33,7 +33,7 @@ header {
     width: 100%;
     padding: 0 1rem;
     /*what if i comment the below out*/
-    position: fixed;
+    position: absolute;
     z-index: 99;
     /* todo: why?????*/
     box-shadow: 0 2px 4px #fc9d03;
@@ -68,6 +68,7 @@ h1 {
 
 .active {
     text-decoration: underline;
+    
 }
 
 /* Navbar styles with dropdown toggle */
