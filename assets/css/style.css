@@ -140,36 +140,7 @@ footer {
 
 .content-box {margin: 0 20px;}
 
-/* Media query: tablets and larger  */
-@media screen and (min-width: 768px) {
 
-    /* Header */
-    nav {
-        display: inline-block;
-        position: relative;
-        width: fit-content;
-        box-shadow: none;
-    }
-
-    #menu {
-        display: flex;
-    }
-
-    #menu>li {
-
-        padding: 2rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    header {
-        font-size: 200%;
-
-    }
-        
-}
 .centered-button-container {
     display: flex;
     justify-content: center;
@@ -198,6 +169,42 @@ h1, h2, h3, p {
 
 /* Media query for tablets and larger screens , if i put this to the end it messes up site, why? */
 @media screen and (min-width: 768px) {
+/*Header and items*/
+    nav {
+        display: inline-block;
+        position: relative;
+        width: fit-content;
+        box-shadow: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+
+        padding: 2rem;
+        
+    }
+
+    #menu a {
+        text-decoration: none;
+    }
+
+    #menu a:hover {
+        background-color: rgb(209, 161, 106);
+  }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        font-size: 200%;
+
+    }
+
+   
     #main-container {
         flex-direction: row; 
         justify-content: center; 
@@ -214,10 +221,11 @@ h1, h2, h3, p {
 #main-container{ margin-top: 100px;}
 }
 
-  #menu a:hover {
-        background-color: rgb(209, 161, 106);
-  }
   /* Media query ends here */
+
+  
+  
+
        
  
   
