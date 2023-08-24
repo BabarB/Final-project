@@ -147,6 +147,7 @@ footer {
     display: flex;
     flex-direction: column; /* Stack the divs vertically on mobile */
     align-items: center; /* Center content horizontally */
+    margin: 30px auto;
 }
 
 #text-container, #pic-container {
@@ -159,14 +160,14 @@ footer {
 }
 
 #text-container li {
-    margin-bottom: 10px; /* Add margin at the bottom of each list item */
+    margin-bottom: 10px; 
 }
 
 /* Media query for tablets and larger screens */
 @media screen and (min-width: 769px) {
     #main-container {
-        flex-direction: row; /* Display the divs side by side on larger screens */
-        justify-content: center; /* Center content horizontally */
+        flex-direction: row; 
+        justify-content: center; 
     }
 
     #text-container, #pic-container {
@@ -174,6 +175,7 @@ footer {
     }
 }
 
+.content-box {margin: 30px;}
 
 
   #menu a:hover {
@@ -190,6 +192,11 @@ footer {
     color: white; 
     border: none; 
     border-radius: 5px; 
+  }
+
+  h3, p {
+    text-align: justify;
+    padding: 0 20px;
   }
     
     
