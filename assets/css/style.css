@@ -34,7 +34,7 @@ header {
     position: fixed;
     z-index: 99;
     /* todo: why?????*/
-    box-shadow: 0 2px 4px #fc9d03;
+    box-shadow: 0 2px 4px purple;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -75,7 +75,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #f3a005;
+    box-shadow: 0 2px 2px purple;
     display: none;
     top: 100%;
 }
@@ -110,7 +110,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: rgb(255, 0, 43);
+    background-color: orange;
 }
 
 /* Media query: tablets and larger  */
@@ -151,7 +151,6 @@ footer {
 
 @media screen and (min-width: 1025px) {
 
-    /* why does this not work.*/
     #menu a:hover {
         background-color: rgb(209, 161, 106);
     }
