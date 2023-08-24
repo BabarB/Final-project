@@ -180,6 +180,17 @@ footer {
         background-color: rgb(209, 161, 106);
   }
        
+  /*Buttons*/
+  .home-button {
+    display: block; 
+    margin: 50px auto; 
+    font-size: 1.5em; 
+    padding: 20px 20px; 
+    background-color: purple; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+  }
     
     
 
