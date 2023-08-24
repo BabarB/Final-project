@@ -166,6 +166,8 @@ footer {
     list-style-type: none;
 }
 
+.content-box {margin: 0 20px;}
+
 /* Media query for tablets and larger screens */
 @media screen and (min-width: 769px) {
     #main-container {
@@ -176,15 +178,17 @@ footer {
     #text-container, #pic-container {
         flex: 1; /* Allow both divs to grow and take equal space */
     }
-}
 
-.content-box {margin: 30px 70px;}
+
+.content-box {margin: 30px 30px;}
 
 #main-container{ margin-top: 100px;}
+}
 
   #menu a:hover {
         background-color: rgb(209, 161, 106);
   }
+  /* Media query ends here */
        
   /*Buttons*/
   .home-button {
