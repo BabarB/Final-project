@@ -115,6 +115,31 @@ footer {
     background-color: rgb(255, 0, 43);
 }
 
+#main-container {
+    display: flex;
+    flex-direction: column; /* Stack the divs vertically on mobile */
+    align-items: center; /* Center content horizontally */
+    
+}
+
+ #pic-container {
+    padding: 20px 80px 20px; /* Add padding for spacing */
+}
+
+#text-container {padding-top: 50px;}
+
+#text-container ul {
+    margin: 0; /* Reset default margin of the ul element */
+    padding: 20px; /* Add spacing to the left of list items */
+}
+
+#text-container li {
+    margin-bottom: 10px; 
+    list-style-type: none;
+}
+
+.content-box {margin: 0 20px;}
+
 /* Media query: tablets and larger  */
 @media screen and (min-width: 768px) {
 
@@ -145,33 +170,34 @@ footer {
     }
         
 }
-#main-container {
+.centered-button-container {
     display: flex;
-    flex-direction: column; /* Stack the divs vertically on mobile */
-    align-items: center; /* Center content horizontally */
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+
+.centered-button {
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1, h2, h3, p {
+
+    /*w3 schools says justify still exists but gets marked as an error*/
+    text-align: justify;
+    text-justify: auto;
+    padding: 0 20px;
+  }
     
-}
 
- #pic-container {
-    padding: 20px 80px 20px; /* Add padding for spacing */
-}
-
-#text-container {padding-top: 50px;}
-
-#text-container ul {
-    margin: 0; /* Reset default margin of the ul element */
-    padding: 20px; /* Add spacing to the left of list items */
-}
-
-#text-container li {
-    margin-bottom: 10px; 
-    list-style-type: none;
-}
-
-.content-box {margin: 0 20px;}
-
-/* Media query for tablets and larger screens */
-@media screen and (min-width: 769px) {
+/* Media query for tablets and larger screens , if i put this to the end it messes up site, why? */
+@media screen and (min-width: 768px) {
     #main-container {
         flex-direction: row; 
         justify-content: center; 
@@ -184,6 +210,7 @@ footer {
 
 .content-box {margin: 30px 30px;}
 
+
 #main-container{ margin-top: 100px;}
 }
 
@@ -193,26 +220,10 @@ footer {
   /* Media query ends here */
        
  
-  .centered-button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh; /* Adjust the height to control the positioning */
-}
+  
 
-.centered-button {
-    padding: 10px 20px;
-    background-color: purple;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
+  
 
-  h1, h2, h3, p {
-    text-align: justify;
-    padding: 0 20px;
-  }
-    
+  
     
 
