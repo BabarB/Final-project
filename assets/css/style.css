@@ -163,6 +163,7 @@ footer {
 
 #text-container li {
     margin-bottom: 10px; 
+    list-style-type: none;
 }
 
 /* Media query for tablets and larger screens */
@@ -177,7 +178,7 @@ footer {
     }
 }
 
-.content-box {margin: 0 30px 70px;}
+.content-box {margin: 120px 30px 70px;}
 
 
   #menu a:hover {
@@ -196,7 +197,7 @@ footer {
     border-radius: 5px; 
   }
 
-  h3, p {
+  h1, h2, h3, p {
     text-align: justify;
     padding: 0 20px;
   }
