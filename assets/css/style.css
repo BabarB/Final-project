@@ -94,7 +94,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: orange;
+    color: purple;
 
 }
 
@@ -141,46 +141,36 @@ footer {
         font-size: 200%;
 
     }
-
-
-
         
 }
-
-
-/*#main-container{
+#main-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stack the divs vertically on mobile */
+    align-items: center; /* Center content horizontally */
 }
 
-.box {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: left;
-    
+#text-container, #pic-container {
+    padding: 20px; /* Add padding for spacing */
 }
-.box img {
-    width: 100%;
-    height: auto;
+
+/* Media query for tablets and larger screens */
+@media screen and (min-width: 769px) {
+    #main-container {
+        flex-direction: row; /* Display the divs side by side on larger screens */
+        justify-content: center; /* Center content horizontally */
+    }
+
+    #text-container, #pic-container {
+        flex: 1; /* Allow both divs to grow and take equal space */
+    }
+}
 
 
-}
-*/
 
   #menu a:hover {
         background-color: rgb(209, 161, 106);
   }
-
-/*@media screen and (min-width: 900px) {
-
+       
     
-  
-
-    #main-container > div {
-        width: 50%;
-        flex-direction: row;
     
-    }
 
-}*/
