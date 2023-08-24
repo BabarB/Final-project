@@ -44,3 +44,6 @@ meta tags
 Formattting of the nav menu includibng the toggling of menu items with pure css
 
 first deployment was in the early stages of the project when there was basic structure only., This was to practice deployment steps and bacause of the benefits of early deployment as discussed in the course material.
+
+Fix button issue: used this to make button: https://www.w3schools.com/howto/howto_css_center_button.asp
+however the button did not open link in new window despite target _blank . The following website helped me fix this issue: https://medium.com/design-code-repository/a-vs-button-b859547cae4d
