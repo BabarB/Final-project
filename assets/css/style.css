@@ -42,14 +42,14 @@ header {
 
 header a {
 
-    color: orange;
-    padding: 0 25px;
+    color: purple;
+    padding: 0 20px;
 }
 
 h1 {
 
     font-family: 'Fjalla One', sans-serif;
-    color: orange;
+    color: purple;
 }
 
 
@@ -93,7 +93,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: orange;
+    color: purple;
     padding: 0 40px;
 
 }
