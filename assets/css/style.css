@@ -28,8 +28,8 @@ body {
 
 /* Header */
 header {
+      
     background-color: yellow;
-    /*it is less, why???? see below*/
     width: 100%;
     padding: 0 1rem;
     /*what if i comment the below out*/
@@ -48,7 +48,8 @@ header a {
 }
 
 h1 {
-
+    /*get rid of whitespace*/
+    margin: 0;
     font-family: 'Fjalla One', sans-serif;
     color: orange;
 }
