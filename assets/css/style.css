@@ -6,7 +6,6 @@
 
 /* Override default styles added by the browser */
 
-/* ???????????????WHY IS THERE WHITE SPACE */
 
 * {
     padding: 0;
@@ -29,14 +28,14 @@ body {
 /* Header */
 header {
       
-    background-color: yellow;
+    background-color: orange;
     width: 100%;
     padding: 0 1rem;
     /*what if i comment the below out*/
     position: absolute;
     z-index: 99;
     /* todo: why?????*/
-    box-shadow: 0 2px 4px #fc9d03;
+    box-shadow: 0 2px 4px #728de8;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -44,14 +43,14 @@ header {
 
 header a {
 
-    color: orange;
+    color: #728de8;
 }
 
 h1 {
     /*get rid of whitespace*/
     margin: 0;
     font-family: 'Fjalla One', sans-serif;
-    color: orange;
+    color: #728de8;
 }
 
 
@@ -74,11 +73,11 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: yellow;
+    background-color: orange;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #f3a005;
+    box-shadow: 0 2px 2px #728de8;
     display: none;
     top: 100%;
 }
@@ -102,7 +101,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightgreen;
+    background-color: lightgray;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     /*fix error as per tutorial 
@@ -114,7 +113,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: rgb(255, 0, 43);
+    background-color: orange;
 }
 
 #main-container {
@@ -152,7 +151,7 @@ footer {
 
 .centered-button {
     padding: 10px 20px;
-    background-color: purple;
+    background-color: #728de8;
     color: white;
     border: none;
     border-radius: 5px;
