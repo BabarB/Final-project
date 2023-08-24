@@ -147,12 +147,14 @@ footer {
     display: flex;
     flex-direction: column; /* Stack the divs vertically on mobile */
     align-items: center; /* Center content horizontally */
-    margin: 30px auto;
+    
 }
 
-#text-container, #pic-container {
+ #pic-container {
     padding: 20px 80px 20px; /* Add padding for spacing */
 }
+
+#text-container {padding-top: 50px;}
 
 #text-container ul {
     margin: 0; /* Reset default margin of the ul element */
@@ -175,7 +177,7 @@ footer {
     }
 }
 
-.content-box {margin: 30px;}
+.content-box {margin: 0 30px 70px;}
 
 
   #menu a:hover {
