@@ -28,13 +28,21 @@ body {
 /* Header */
 header {
     background-color: yellow;
+<<<<<<< HEAD
+=======
+    /*it is less, why???? see below*/
+>>>>>>> 3fee113a9a3bfc99140775ef98b2ef6472db45b3
     width: 100%;
     padding: 0 1rem;
     /*what if i comment the below out*/
     position: fixed;
     z-index: 99;
     /* todo: why?????*/
+<<<<<<< HEAD
     box-shadow: 0 2px 4px purple;
+=======
+    box-shadow: 0 2px 4px #fc9d03;
+>>>>>>> 3fee113a9a3bfc99140775ef98b2ef6472db45b3
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -93,8 +101,12 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+<<<<<<< HEAD
     color: purple;
     padding: 0 40px;
+=======
+    color: orange;
+>>>>>>> 3fee113a9a3bfc99140775ef98b2ef6472db45b3
 
 }
 
@@ -142,6 +154,7 @@ footer {
 
     }
 
+<<<<<<< HEAD
     header a {
 
         padding: 0 30px;
@@ -151,6 +164,17 @@ footer {
 
 @media screen and (min-width: 1025px) {
 
+=======
+    /* main {
+         slide down the main content.
+        margin-top: 270px;*/
+}
+}
+
+@media screen and (min-width: 1025px) {
+
+    /* why does this not work.*/
+>>>>>>> 3fee113a9a3bfc99140775ef98b2ef6472db45b3
     #menu a:hover {
         background-color: rgb(209, 161, 106);
     }
