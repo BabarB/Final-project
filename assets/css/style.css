@@ -1,11 +1,9 @@
 /* Google fonts import */
 
-<style>@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+ url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fjalla+One&display=swap');
-
-</style>
-/* Override default styles added by the browser */
-
+ide default styles added by the browser */
+/* ???????????????WHY IS THERE WHITE SPACE */
 
 * {
     padding: 0;
@@ -28,21 +26,14 @@ body {
 /* Header */
 header {
     background-color: yellow;
-<<<<<<< HEAD
-=======
     /*it is less, why???? see below*/
->>>>>>> 3fee113a9a3bfc99140775ef98b2ef6472db45b3
     width: 100%;
     padding: 0 1rem;
     /*what if i comment the below out*/
     position: fixed;
     z-index: 99;
     /* todo: why?????*/
-<<<<<<< HEAD
-    box-shadow: 0 2px 4px purple;
-=======
     box-shadow: 0 2px 4px #fc9d03;
->>>>>>> 3fee113a9a3bfc99140775ef98b2ef6472db45b3
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -50,14 +41,13 @@ header {
 
 header a {
 
-    color: purple;
-    padding: 0 20px;
+    color: orange;
 }
 
 h1 {
 
     font-family: 'Fjalla One', sans-serif;
-    color: purple;
+    color: orange;
 }
 
 
@@ -83,7 +73,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px purple;
+    box-shadow: 0 2px 2px #f3a005;
     display: none;
     top: 100%;
 }
@@ -101,12 +91,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-<<<<<<< HEAD
-    color: purple;
-    padding: 0 40px;
-=======
     color: orange;
->>>>>>> 3fee113a9a3bfc99140775ef98b2ef6472db45b3
 
 }
 
@@ -122,7 +107,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: rgb(255, 0, 43);
 }
 
 /* Media query: tablets and larger  */
@@ -154,17 +139,6 @@ footer {
 
     }
 
-<<<<<<< HEAD
-    header a {
-
-        padding: 0 30px;
-    }
-}
-
-
-@media screen and (min-width: 1025px) {
-
-=======
     /* main {
          slide down the main content.
         margin-top: 270px;*/
@@ -174,7 +148,6 @@ footer {
 @media screen and (min-width: 1025px) {
 
     /* why does this not work.*/
->>>>>>> 3fee113a9a3bfc99140775ef98b2ef6472db45b3
     #menu a:hover {
         background-color: rgb(209, 161, 106);
     }
