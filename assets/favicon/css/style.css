@@ -18,7 +18,7 @@ body {
   min-height: 100vh;
   width: 100vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  /* Todo daisy is this necessary? Row doesn#t change anything on mobile view */
   /* General styling for project */
   color: black;
   font-family: "Dosis", sans-serif;
@@ -49,8 +49,13 @@ h1 {
   font-family: "Fjalla One", sans-serif;
   color: #728de8;
 }
- /*img {width: 100%;*/
+
+ img {width: 100%;
+/*todo ask Daisy*/
 }
+
+
+
 #menu {
   font-size: larger;
   letter-spacing: 2px;
@@ -140,11 +145,14 @@ does not help, what does????????*/
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 20vh;
+  
+  
 }
 
 .centered-button {
   padding: 15px 30px;
+  margin-bottom: 30px;
   background-color: #728de8;
   font-size: x-large;
   color: white;
@@ -262,8 +270,7 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
    header {width: 100%;
    display: block;
-   
-   top: 5.5rem; /* Adjust top position */
+   top: 5.5rem; 
    overflow: hidden;
  }
 
@@ -273,6 +280,7 @@ footer {
     box-shadow: 0 2px 2px #728de8;
     top: 5.5rem; /* Adjust top position */
   }
+}
 
   /*h1, h2, h3, p {margin: 0 50px 0 100px;}
   If mobile view is really messed up, to continue
