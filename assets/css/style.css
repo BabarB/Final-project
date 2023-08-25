@@ -110,9 +110,9 @@ main {
   align-items: center; /* Center content horizontally */
 }
 
-#pic-container {
-  padding: 20px 80px 20px; /* Add padding for spacing */
-}
+/*#pic-container {
+  padding: 20px 80px 20px;  Add padding for spacing 
+}*/
 
 #text-container {
   padding-top: 50px;
