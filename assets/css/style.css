@@ -100,6 +100,7 @@ main {
     margin-top: 75px; 
     deleted as causing whitespace, padding*/
   padding-top: 75px;
+  
 }
 
 
@@ -110,12 +111,10 @@ main {
   align-items: center; /* Center content horizontally */
 }
 
-/*#pic-container {
-  padding: 20px 80px 20px;  Add padding for spacing 
-}*/
 
 #text-container {
-  padding-top: 50px;
+  
+  margin-top: 70px;
 }
 
 #text-container ul {
@@ -269,6 +268,23 @@ footer {
     box-shadow: 0 2px 2px #728de8;
     top: 5.5rem; /* Adjust top position */
   }
+}
+
 
   /*h1, h2, h3, p {margin: 0 50px 0 100px;}
   If mobile view is really messed up, to continue
+
+  /* Media query for laptops and higher to align image  and make smaller */
+@media screen and (min-width: 1024px) {
+  #pic-container {
+  padding: 20px;
+  margin-top: 40px; 
+
+}
+
+#text-container {
+    margin-left: 50px;
+    
+  
+  }
+}
