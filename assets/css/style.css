@@ -100,10 +100,7 @@ main {
   padding-top: 75px;
 }
 
-/* Footer */
-footer {
-  background-color: #e8c372;
-}
+
 
 #main-container {
   display: flex;
@@ -161,6 +158,40 @@ p {
   padding: 0 20px;
 }
 
+/* Footer */
+footer {
+    background-color: #e8c372;
+  }
+  
+
+  #social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px 0;
+    
+  }
+
+  #social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    
+    color: #728de8;
+}
+
+#contact-details {
+    
+    /*margin: 30px;
+    list-style-type: none;
+    padding: 20px 10px 20px 40px;
+    text-align: left;*/
+    margin:auto;
+    width: 50%;
+    list-style-type: none;
+    padding: 20px;
+    
+}
+
 /* Media query for tablets and larger screens , if i put this to the end it messes up site, why? */
 @media screen and (min-width: 768px) {
   /*Header and items*/
@@ -211,7 +242,11 @@ p {
 
   #main-container {
     margin-top: 100px;
+
+    
   }
-}
+  /*h1, h2, h3, p {margin: 0 50px 0 100px;}
+  If mobile view is really messed up, to continue
+}*/
 
 /* Media query ends here */
