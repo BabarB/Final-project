@@ -38,12 +38,31 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 Happy coding!
 
+Resurces:
+
 Taken from love running tutorial:
 
 meta tags
 Formattting of the nav menu includibng the toggling of menu items with pure css
 
+Idaa for footer social media link ul list, this was enhanced by myself
+
+For the favicon i used Daisy McGirr's helpful youtube video https://www.youtube.com/watch?v=W809I-d9xTg I used the following generator: https://favicon.io/favicon-generator/
+
+For the pictures I used https://www.istockphoto.com/
+
+
 first deployment was in the early stages of the project when there was basic structure only., This was to practice deployment steps and bacause of the benefits of early deployment as discussed in the course material.
 
 Fix button issue: used this to make button: https://www.w3schools.com/howto/howto_css_center_button.asp
 however the button did not open link in new window despite target _blank . The following website helped me fix this issue: https://medium.com/design-code-repository/a-vs-button-b859547cae4d
+
+I used ChatGPT to create the initial draft texts, these were then rewritten by myself to sound more relevant and personal to the site's visitor.
+
+The meditation audios have been written by myself, the reader was Robert Tubb.
+
+
+
+
+
+
