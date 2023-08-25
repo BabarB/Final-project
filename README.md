@@ -1,38 +1,22 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Declutter! isthe first rough  version of a project I would like to extend in the future. The target audience is people with shopping addiction, to which the website offers meditation as a temporary solution. I have encountered people suffering from shopping addiction in my family and previous career. As regular meditator I strongly believe that this could be the answer for them.
 
-Welcome,
+Features
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Navigation
+The navigation menu is inside the header. The site features a standard responsive navigation menu on the top right. On the top left, in line with user expectations, there is a site logo that navigates the visitor back to the home page.
+Due to the very specific audience of the site, the main page is not the landing page but the "meditate" page. Navigation to this page is further facilitated by call to action buttons.
+???Does anyzthing else need to be in hhe header????
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+The Main Content
+On the homepage, visitors will find information about meditation's ability to tackle shopping addiction. The first text is fairly short and uses a personal, question format to raise the immediate interest of those affected. If this resonates with them, they can click the call to action button straight away to land on the "Meditate" page. Undecisive visitors can read a text with further information, after which the same call to action button repeats for their convenience (i.e. to avoid having to scroll up again).
 
-## Codeanywhere Reminders
+The hero image is placed to the right of the short into text to reinforce their point. It is not in the background, rather, visual summary of what the visitor may wish to achieve.  The logo and favicon serve a similar purpose: The one-word slogan with an exclamation mark promotes a result oriented approach as opposed to procrastination. This is in line with meditation's approach to stay in the present momet. "Declutter!" suggests: don't think about it, do it, and do it now.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The Footer
 
-`python3 -m http.server`
+Links to social media sites are located in the footer. For my own privary, I used dummy links that open in a new window. The youtube channel, as I do not have one yet, points to my husband's channel as a temporary fix, in case the assessors of the site fancy listening to some good music.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
 ---
 
@@ -62,7 +46,10 @@ I used ChatGPT to create the initial draft texts, these were then rewritten by m
 The meditation audios have been written by myself, the reader was Robert Tubb.
 
 
-
+Testing (cross browser compatibility)
+was carried out on actual devices by other people. So the tablet view was tested on an ipad, and the mobile view on a phone. Reasons:
+- to give visitors of the site a real user experience, which leads to them sharing their first impressions
+- because dev tools are not 100% reliable, browser compatibility playing a role in this. This statement has been verified by the user test. In tablet mode, the Firefox dev tools did not show the same errors as the Google dev tool. Therefore, it made sense to open the project on an actual tablet, and view it in both Firefox and Google Chrome. ???? For the purpose of this project, I only tested the project in the most popular browsers.???
 
 
 

@@ -1,0 +1,278 @@
+/* Google fonts import */
+
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fjalla+One&display=swap");
+
+/* Override default styles added by the browser */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* General styling for body  */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* General styling for project */
+  color: black;
+  font-family: "Dosis", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #e8c372;
+  width: 100vw;
+  padding: 0 1rem;
+  /*what if i comment the below out*/
+  position: absolute;
+  z-index: 99;
+  /* todo: why?????*/
+  box-shadow: 0 2px 4px #728de8;
+  display: block;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+header a {
+  color: #728de8;
+}
+
+h1 {
+  /*get rid of whitespace*/
+  margin: 0;
+  font-family: "Fjalla One", sans-serif;
+  color: #728de8;
+}
+ /*img {width: 100%;*/
+}
+#menu {
+  font-size: larger;
+  letter-spacing: 2px;
+  list-style-type: none;
+}
+
+#menu > li {
+  margin-bottom: 1em;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+  position: absolute;
+  background-color: #e8c372;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #728de8;
+  display: none;
+  top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked ~ nav {
+  display: block;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
+  color: #728de8;
+}
+
+/* Main content */
+main {
+/*width: 100vw; 
+display: block;
+does not help, what does????????*/
+
+  background-color: lightgray;
+  /* Make main element take up any surplus space to push footer down */
+  flex: 1 0 auto;
+  /*fix error as per tutorial 
+    margin-top: 75px; 
+    deleted as causing whitespace, padding*/
+  padding-top: 75px;
+}
+
+
+
+#main-container {
+  display: flex;
+  flex-direction: column; /* Stack the divs vertically on mobile */
+  align-items: center; /* Center content horizontally */
+}
+
+#pic-container {
+  padding: 20px 80px 20px; /* Add padding for spacing */
+}
+
+#text-container {
+  padding-top: 50px;
+}
+
+#text-container ul {
+  margin: 0; /* Reset default margin of the ul element */
+  padding: 20px; /* Add spacing to the left of list items */
+}
+
+#text-container li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.content-box {
+  margin: 20px 20px;
+}
+
+.centered-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.centered-button {
+  padding: 15px 30px;
+  background-color: #728de8;
+  font-size: x-large;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  /*w3 schools says justify still exists but gets marked as an error*/
+  text-align: justify;
+  text-justify: auto;
+  padding: 0 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #e8c372;
+  }
+  
+
+  #social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px 0;
+    
+  }
+
+  #social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    
+    color: #728de8;
+}
+
+#contact-details {
+    
+    /*margin: 30px;
+    list-style-type: none;
+    padding: 20px 10px 20px 40px;
+    text-align: left;*/
+    margin:auto;
+    width: 50%;
+    list-style-type: none;
+    padding: 20px;
+    
+}
+
+/* Media query for tablets and larger screens , if i put this to the end it messes up site, why? */
+@media screen and (min-width: 768px) {
+  /*Header and items*/
+  nav {
+    display: block;
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    /*0 2px 2px #f3a005*/
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  #menu > li {
+    padding: 2rem;
+  }
+
+  #menu a {
+    text-decoration: none;
+  }
+
+  #menu a:hover {
+    background-color: rgb(209, 161, 106);
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  header {
+    font-size: 200%;
+  }
+
+  #main-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #text-container,
+  #pic-container {
+    flex: 1; /* Allow both divs to grow and take equal space */
+  }
+
+  .content-box {
+    margin: 30px 30px;
+  }
+
+  #main-container {
+    margin-top: 100px;
+
+    
+  }
+  
+}*/
+
+/* Media query ends here */
+
+
+/* Media query for iPads */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   header {width: 100%;
+   display: block;
+   
+   top: 5.5rem; /* Adjust top position */
+   overflow: hidden;
+ }
+
+ nav {
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 2px 2px #728de8;
+    top: 5.5rem; /* Adjust top position */
+  }
+
+  /*h1, h2, h3, p {margin: 0 50px 0 100px;}
+  If mobile view is really messed up, to continue
