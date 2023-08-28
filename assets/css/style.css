@@ -160,12 +160,21 @@ p {
   padding: 0 20px;
 }
 
+
 main p {
   text-align: justify;
   text-justify: auto;
 }
+ /* Audio elements */
+#audio-text-container {
+    margin-top: 100px;
+}
 
-/* Footer meditate*/
+#audio-mp3-title-container {
+    margin: 40px;
+}
+
+/* Footer*/
 footer {
   background-color: #e8c372;
 }
@@ -194,6 +203,7 @@ footer {
 #contact-details li {
   text-align: center;
 }
+
 
 /* Media query for tablets and larger screens , if i put this to the end it messes up site, why? */
 @media screen and (min-width: 768px) {
