@@ -49,8 +49,10 @@ h1 {
   font-family: "Fjalla One", sans-serif;
   color: #728de8;
 }
+
  img {width: 100%;
 }
+
 #menu {
   font-size: larger;
   letter-spacing: 2px;
@@ -113,7 +115,6 @@ main {
 
 
 #text-container {
-  
   margin-top: 70px;
 }
 
@@ -186,16 +187,18 @@ footer {
 
 #contact-details {
     
-    /*margin: 30px;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+    margin: 20px 50px;
     list-style-type: none;
-    padding: 20px 10px 20px 40px;
-    text-align: left;*/
-    margin:auto;
-    width: 50%;
-    list-style-type: none;
-    padding: 20px;
-    
-}
+  }
+  
+ 
+  
+  #contact-details li {
+    text-align: center; 
+  }
+  
 
 /* Media query for tablets and larger screens , if i put this to the end it messes up site, why? */
 @media screen and (min-width: 768px) {
