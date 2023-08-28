@@ -50,7 +50,8 @@ h1 {
   color: #728de8;
 }
 
- img {width: 100%;
+img {
+  width: 100%;
 }
 
 #menu {
@@ -102,17 +103,15 @@ main {
     margin-top: 75px; 
     deleted as causing whitespace, padding*/
   padding-top: 75px;
-  
 }
 
-
-
-#main-container, #audio-main-container, #contact-main-container {
+#main-container,
+#audio-main-container,
+#contact-main-container {
   display: flex;
   flex-direction: column; /* Stack the divs vertically on mobile */
   align-items: center; /* Center content horizontally */
 }
-
 
 #text-container {
   margin-top: 70px;
@@ -150,58 +149,51 @@ main {
   text-decoration: none;
 }
 
-#home-button-container-2{
-    margin-bottom: 30px;
+#home-button-container-2 {
+  margin-bottom: 30px;
 }
 
 main h1,
 h2,
 h3,
 p {
-  /*w3 schools says justify still exists but gets marked as an error*/
+  padding: 0 20px;
+}
+
+main p {
   text-align: justify;
   text-justify: auto;
-  padding: 0 20px;
 }
 
 /* Footer meditate*/
 footer {
-    background-color: #e8c372;
-  }
-  
+  background-color: #e8c372;
+}
 
-  #social-networks {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    padding: 20px 0;
-    
-  }
+#social-networks {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 20px 0;
+}
 
-  #social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    
-    color: #728de8;
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+
+  color: #728de8;
 }
 
 #contact-details {
-    
-    justify-content: space-evenly;
-    padding: 20px 50px;
-    margin: 20px 50px;
-    list-style-type: none;
-  }
-  
- 
-  
-  #contact-details li {
-    text-align: center; 
-  }
-  
- 
-  
-  
+  justify-content: space-evenly;
+  padding: 20px 50px;
+  margin: 20px 50px;
+  list-style-type: none;
+}
+
+#contact-details li {
+  text-align: center;
+}
 
 /* Media query for tablets and larger screens , if i put this to the end it messes up site, why? */
 @media screen and (min-width: 768px) {
@@ -244,12 +236,11 @@ footer {
   }
 
   #text-container,
-  #pic-container, 
+  #pic-container,
   #audio-pic-container,
   #audio-text-container,
   #contact-pic-container,
-  #contact-text-container,
-   {
+  #contact-text-container {
     flex: 1; /* Allow both divs to grow and take equal space */
   }
 
@@ -259,25 +250,24 @@ footer {
 
   #main-container {
     margin-top: 100px;
-
-    
   }
-  
-}*/
+}
+*/
 
 /* Media query ends here */
 
 
 /* Media query for iPads */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-   header {width: 100%;
-   display: block;
-   
-   top: 5.5rem; /* Adjust top position */
-   overflow: hidden;
- }
+  header {
+    width: 100%;
+    display: block;
 
- nav {
+    top: 5.5rem; /* Adjust top position */
+    overflow: hidden;
+  }
+
+  nav {
     width: 100%;
     padding: 0;
     box-shadow: 0 2px 2px #728de8;
@@ -285,21 +275,17 @@ footer {
   }
 }
 
-
-  /*h1, h2, h3, p {margin: 0 50px 0 100px;}
+/*h1, h2, h3, p {margin: 0 50px 0 100px;}
   If mobile view is really messed up, to continue
 
   /* Media query for laptops and higher to align image  and make smaller */
 @media screen and (min-width: 1024px) {
   #pic-container {
-  padding: 20px;
-  margin-top: 40px; 
+    padding: 20px;
+    margin-top: 40px;
+  }
 
-}
-
-#text-container {
+  #text-container {
     margin-left: 50px;
-    
-  
   }
 }
