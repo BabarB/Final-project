@@ -107,7 +107,7 @@ main {
 
 
 
-#main-container {
+#main-container, #audio-main-container, #contact-main-container {
   display: flex;
   flex-direction: column; /* Stack the divs vertically on mobile */
   align-items: center; /* Center content horizontally */
@@ -241,7 +241,12 @@ footer {
   }
 
   #text-container,
-  #pic-container {
+  #pic-container, 
+  #audio-pic-container,
+  #audio-text-container,
+  #contact-pic-container,
+  #contact-text-container,
+   {
     flex: 1; /* Allow both divs to grow and take equal space */
   }
 
