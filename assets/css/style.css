@@ -28,7 +28,7 @@ body {
 header {
   background-color: #e8c372;
   width: 100%;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
   /*what if i comment the below out*/
   position: absolute;
   z-index: 99;
@@ -55,7 +55,7 @@ img {
 }
 
 #menu {
-  font-size: larger;
+
   letter-spacing: 2px;
   list-style-type: none;
 }
@@ -167,7 +167,7 @@ main p {
 }
  /* Audio elements */
 #audio-text-container {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 #audio-mp3-title-container {
