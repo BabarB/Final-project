@@ -279,7 +279,7 @@ footer {
 
     #text-container,
     #pic-container,
-    #audio-pic-container,
+   
    
     #contact-pic-container,
     #contact-text-container {
@@ -292,22 +292,27 @@ footer {
     .content-box {
         margin: 30px 30px;
     }
+    
 
     #main-container {
         margin-top: 100px;
     }
     
     
-      #audio-main-container {
+      #meditate-main-content-box {
         display: flex;
         align-items: flex-start;
-        flex-direction: column; /* Arrange audio players below each other */
+        flex-direction: row; /* Arrange audio players below each other */
+      }
+
+      #audio-main-container {
+        max-width: 40%
       }
 
       .audio-mp3-title-container {
         margin-top: 30px;
         margin-bottom: 30px;
-        padding: 20px;
+        padding: 10px;
         background-color: #f0f0f0;
         border-radius: 10px;
         flex: 1;
@@ -315,10 +320,9 @@ footer {
       }
 
       #audio-pic-container {
-        margin-top: 30px; 
-        margin-bottom: 30px;
-        margin-right: 20px; 
+       
         flex: 1;
+        width: 50%;
 
       }    
 }
