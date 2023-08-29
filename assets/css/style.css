@@ -210,7 +210,7 @@ footer {
 @media screen and (min-width: 768px) {
   /*Header and items*/
   nav {
-    display: block; /* this needs to be kept here, why? */
+    display: block;
     position: static;
     width: 100%;
     box-shadow: none;
@@ -282,9 +282,7 @@ footer {
     display: block;
     box-shadow: 0 2px 2px #728de8;
     top: 3rem; 
-    position: static;
   }
-
   
 
    /* Small down menu to fit into screen */
@@ -306,14 +304,5 @@ footer {
   #text-container {
     margin-left: 50px;
   }
-
-  nav {
-    width: 100%;
-    padding: 0;
-    display: block;
-    box-shadow: 0 2px 2px #728de8;
-    top: 3rem; 
-    
-    align-items: flex-end;
-  }
+  
 }
