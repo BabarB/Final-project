@@ -59,9 +59,10 @@ img {
   letter-spacing: 2px;
   list-style-type: none;
 }
-
+/* Small down menu to fit into screen */
 #menu > li {
   margin-bottom: 0.5em;
+  margin-left: 1rem;
 }
 
 .active {
@@ -209,7 +210,7 @@ footer {
 @media screen and (min-width: 768px) {
   /*Header and items*/
   nav {
-    display: block;
+    display: block; /* this needs to be kept here, why? */
     position: static;
     width: 100%;
     box-shadow: none;
@@ -220,9 +221,7 @@ footer {
     display: flex;
   }
 
-  #menu > li {
-    padding: 2rem;
-  }
+ 
 
   #menu a {
     text-decoration: none;
@@ -264,7 +263,7 @@ footer {
 }
 */
 
-/* Media query ends here */
+/* Media query ipad ends here */
 
 
 /* Media query for iPads */
@@ -272,7 +271,7 @@ footer {
   header {
     width: 100%;
     display: block;
-
+    position: static;
     top: 5.5rem; /* Adjust top position */
     overflow: hidden;
   }
@@ -280,8 +279,17 @@ footer {
   nav {
     width: 100%;
     padding: 0;
+    display: block;
     box-shadow: 0 2px 2px #728de8;
-    top: 5.5rem; /* Adjust top position */
+    top: 3rem; 
+    position: static;
+  }
+
+  
+
+   /* Small down menu to fit into screen */
+   #menu > li {
+    padding: 1rem;
   }
 }
 
@@ -297,5 +305,15 @@ footer {
 
   #text-container {
     margin-left: 50px;
+  }
+
+  nav {
+    width: 100%;
+    padding: 0;
+    display: block;
+    box-shadow: 0 2px 2px #728de8;
+    top: 3rem; 
+    
+    align-items: flex-end;
   }
 }
