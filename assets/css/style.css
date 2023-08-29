@@ -161,6 +161,9 @@ p {
   padding: 0 20px;
 }
 
+img {
+        border-radius: 10px;
+      }
 
 main p {
   text-align: justify;
@@ -187,8 +190,10 @@ main p {
   
   
   #audio-pic-container {
-    margin-top: 30px;
+    margin-top: 220px;
     margin-bottom: 20px;
+    margin-right:  10px;
+
   }
     
 
@@ -325,6 +330,10 @@ footer {
         width: 50%;
 
       }    
+
+      img {
+        border-radius: 10px;
+      }
 }
 /* Media query ipad ends here. Colorblock seems like a bug in ca */
 
