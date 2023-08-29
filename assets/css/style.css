@@ -225,91 +225,81 @@ footer {
 
 /* Media query for tablets and larger screens , if i put this to the end it messes up site, why? */
 @media screen and (min-width: 768px) {
-  /*Header and items*/
-  nav {
-    display: block;
-    position: static;
-    width: 100%;
-    box-shadow: none;
-    /*0 2px 2px #f3a005*/
-  }
+  /*Header and items for tablet*/
 
-  #menu {
-    display: flex;
-  }
+    header {
+        width: 100%;
+        display: block;
+        position: static;
+        top: 5.5rem; 
+        overflow: hidden;
+        font-size: 150%; /*this eliminated overflow*/
 
- 
+    }
 
-  #menu a {
-    text-decoration: none;
-  }
+    nav {
+        display: block;
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        /*padding: 0;
+        
+        top: 3rem; */
+    }
 
-  #menu a:hover {
-    background-color: rgb(209, 161, 106);
-  }
 
-  .nav-toggle-label {
-    display: none;
-  }
+    #menu {
+        display: flex;
+    }
 
-  header {
-    font-size: 200%;
-  }
 
-  #main-container {
-    flex-direction: row;
-    justify-content: center;
-  }
+    #menu a {
+        text-decoration: none;
+    }
 
-  #text-container,
-  #pic-container,
-  #audio-pic-container,
-  #audio-text-container,
-  #contact-pic-container,
-  #contact-text-container {
-    flex: 1; /* Allow both divs to grow and take equal space */
+    #menu a:hover {
+        background-color: rgb(209, 161, 106);
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+     /* Small down menu to fit into screen */
+     #menu > li {
+        padding: 1rem;
+      }
+
+    /*Main and items for tablet*/
+
+    #main-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #text-container,
+    #pic-container,
+    #audio-pic-container,
+    #audio-text-container,
+    #contact-pic-container,
+    #contact-text-container {
+        flex: 1; /* Allow both divs to grow and take equal space */
    
   }
 
+
+
+    .content-box {
+        margin: 30px 30px;
+    }
+
+    #main-container {
+        margin-top: 100px;
+    }
 }
+/* Media query ipad ends here. Colorblock seems like a bug */
 
-  .content-box {
-    margin: 30px 30px;
-  }
-
-  #main-container {
-    margin-top: 100px;
-  }
-}
-*/
-
-/* Media query ipad ends here */
-
-
-/* Media query for iPads */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  header {
-    width: 100%;
-    display: block;
-    position: static;
-    top: 5.5rem; /* Adjust top position */
-    overflow: hidden;
-  }
-
-  nav {
-    width: 100%;
-    padding: 0;
-    display: block;
-    box-shadow: 0 2px 2px #728de8;
-    top: 3rem; 
-  }
-  
-
-   /* Small down menu to fit into screen */
-   #menu > li {
-    padding: 1rem;
-  }
-}
+ 
 
 /*h1, h2, h3, p {margin: 0 50px 0 100px;}
   If mobile view is really messed up, to continue
