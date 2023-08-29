@@ -190,7 +190,7 @@ main p {
   
   
   #audio-pic-container {
-    margin-top: 220px;
+    margin-top: 20px;
     margin-bottom: 20px;
     margin-right:  10px;git
 
@@ -331,7 +331,7 @@ footer {
         border-radius: 10px;
       }
 }
-/* Media query ipad ends here. Colorblock seems like a bug in ca */
+/* Media query ipad ends here. */
 
 
   /* Media query for laptops and higher to align image  and make smaller */
