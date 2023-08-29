@@ -284,20 +284,16 @@ footer {
 
     #text-container,
     #pic-container,
-   
-   
-    #contact-pic-container,
+    #contact-pic-container, 
     #contact-text-container {
-        flex: 1; /* Allow both divs to grow and take equal space */
-   
-  }
+         flex: 1; 
+        }/* Allow both divs to grow and take equal space */
+     
 
-
-
-    .content-box {
+     .content-box {
         margin: 30px 30px;
     }
-    
+
 
     #main-container {
         margin-top: 100px;
@@ -308,11 +304,11 @@ footer {
         display: flex;
         align-items: flex-start;
         flex-direction: row; /* Arrange audio players below each other */
-      }
+    }
 
       #audio-main-container {
         max-width: 40%
-      }
+   }
 
       .audio-mp3-title-container {
         margin-top: 30px;
