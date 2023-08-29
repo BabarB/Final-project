@@ -33,7 +33,7 @@ header {
   position: absolute;
   z-index: 99;
   /* todo: why?????*/
-  box-shadow: 0 2px 4px #728de8;
+  box-shadow: 0 2px 4px #2a49b0;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -47,7 +47,7 @@ h1 {
   /*get rid of whitespace*/
   margin: 0;
   font-family: "Fjalla One", sans-serif;
-  color: #728de8;
+  color: #2a49b0;
 }
 
 img {
@@ -55,7 +55,6 @@ img {
 }
 
 #menu {
-
   letter-spacing: 2px;
   list-style-type: none;
 }
@@ -162,40 +161,36 @@ p {
 }
 
 img {
-        border-radius: 10px;
-      }
+  border-radius: 10px;
+}
 
 main p {
   text-align: justify;
   text-justify: auto;
 }
- /* Audio elements mobile */
+/* Audio elements mobile */
 #meditate-main-content-box h1 {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .audio-mp3-title-container {
-    margin-top: 20px;
-    margin-bottom: 20px; 
-    padding: 15px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
 }
 
 .audio-mp3-title-container h2 {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 
-  
-  
-  #audio-pic-container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right:  10px;git
-
-  }
-    
+#audio-pic-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
 
 /* Footer*/
 footer {
@@ -227,114 +222,104 @@ footer {
   text-align: center;
 }
 
-
 /* Media query for tablets and larger screens , if i put this to the end it messes up site, why? */
 @media screen and (min-width: 768px) {
   /*Header and items for tablet*/
 
-    header {
-        width: 100%;
-        display: block;
-        position: static;
-        top: 5.5rem; 
-        overflow: hidden;
-        font-size: 150%; /*this eliminated overflow*/
+  header {
+    width: 100%;
+    display: block;
+    position: static;
+    top: 5.5rem;
+    overflow: hidden;
+    font-size: 150%; /*this eliminated overflow*/
+  }
 
-    }
-
-    nav {
-        display: block;
-        position: static;
-        width: 100%;
-        box-shadow: none;
-        /*padding: 0;
+  nav {
+    display: block;
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    /*padding: 0;
         
         top: 3rem; */
-    }
+  }
 
+  #menu {
+    display: flex;
+  }
 
-    #menu {
-        display: flex;
-    }
+  #menu a {
+    text-decoration: none;
+  }
 
+  #menu a:hover {
+    background-color: rgb(209, 161, 106);
+  }
 
-    #menu a {
-        text-decoration: none;
-    }
+  .nav-toggle-label {
+    display: none;
+  }
 
-    #menu a:hover {
-        background-color: rgb(209, 161, 106);
-    }
+  /* Small down menu to fit into screen */
+  #menu > li {
+    padding: 1rem;
+  }
 
-    .nav-toggle-label {
-        display: none;
-    }
+  /*Main and items for tablet*/
 
-     /* Small down menu to fit into screen */
-     #menu > li {
-        padding: 1rem;
-      }
+  #main-container {
+    flex-direction: row;
+    justify-content: center;
+  }
 
-    /*Main and items for tablet*/
+  #text-container,
+  #pic-container,
+  #contact-pic-container,
+  #contact-text-container {
+    flex: 1;
+  } /* Allow both divs to grow and take equal space */
 
-    #main-container {
-        flex-direction: row;
-        justify-content: center;
-    }
+  .content-box {
+    margin: 30px 30px;
+  }
 
-    #text-container,
-    #pic-container,
-    #contact-pic-container, 
-    #contact-text-container {
-         flex: 1; 
-        }/* Allow both divs to grow and take equal space */
-     
+  #main-container {
+    margin-top: 100px;
+  }
 
-     .content-box {
-        margin: 30px 30px;
-    }
+  #meditate-main-content-box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row; /* Arrange audio players below each other */
+  }
 
+  #audio-main-container {
+    max-width: 40%;
+  }
 
-    #main-container {
-        margin-top: 100px;
-    }
-    
-    
-      #meditate-main-content-box {
-        display: flex;
-        align-items: flex-start;
-        flex-direction: row; /* Arrange audio players below each other */
-    }
+  .audio-mp3-title-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 0; /* Reset margin for audio container */
+  }
 
-      #audio-main-container {
-        max-width: 40%
-   }
+  #audio-pic-container {
+    flex: 1;
+    width: 50%;
+  }
 
-      .audio-mp3-title-container {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        padding: 10px;
-        background-color: #f0f0f0;
-        border-radius: 10px;
-        flex: 1;
-        margin-right: 0; /* Reset margin for audio container */
-      }
-
-      #audio-pic-container {
-       
-        flex: 1;
-        width: 50%;
-
-      }    
-
-      img {
-        border-radius: 10px;
-      }
+  img {
+    border-radius: 10px;
+  }
 }
 /* Media query ipad ends here. */
 
-
-  /* Media query for laptops and higher to align image  and make smaller */
+/* Media query for laptops and higher to align image  and make smaller */
 @media screen and (min-width: 1024px) {
   #audio-pic-container {
     padding: 20px;
@@ -345,11 +330,10 @@ footer {
     margin-left: 50px;
   }
   #audio-main-container {
-    max-width: 50%
+    max-width: 50%;
   }
   .audio-mp3-title-container {
     width: 100%;
     margin: 20px;
   }
- 
 }
