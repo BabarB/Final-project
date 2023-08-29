@@ -167,11 +167,11 @@ main p {
   text-justify: auto;
 }
  /* Audio elements mobile */
-#audio-text-container {
-    margin-top: 75px;
+#meditate-main-content-box h1 {
+    margin-top: 100px;
 }
 
-#audio-mp3-title-container {
+.audio-mp3-title-container {
     margin-top: 20px;
     margin-bottom: 20px; 
     padding: 15px;
@@ -280,7 +280,7 @@ footer {
     #text-container,
     #pic-container,
     #audio-pic-container,
-    #audio-text-container,
+   
     #contact-pic-container,
     #contact-text-container {
         flex: 1; /* Allow both divs to grow and take equal space */
@@ -296,17 +296,38 @@ footer {
     #main-container {
         margin-top: 100px;
     }
+    
+    
+      #audio-main-container {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column; /* Arrange audio players below each other */
+      }
+
+      .audio-mp3-title-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        flex: 1;
+        margin-right: 0; /* Reset margin for audio container */
+      }
+
+      #audio-pic-container {
+        margin-top: 30px; 
+        margin-bottom: 30px;
+        margin-right: 20px; 
+        flex: 1;
+
+      }    
 }
-/* Media query ipad ends here. Colorblock seems like a bug */
+/* Media query ipad ends here. Colorblock seems like a bug in ca */
 
- 
-
-/*h1, h2, h3, p {margin: 0 50px 0 100px;}
-  If mobile view is really messed up, to continue
 
   /* Media query for laptops and higher to align image  and make smaller */
 @media screen and (min-width: 1024px) {
-  #pic-container {
+  #audio-pic-container {
     padding: 20px;
     margin-top: 40px;
   }
