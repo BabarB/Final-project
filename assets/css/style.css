@@ -303,7 +303,6 @@ footer {
     margin-top: 100px;
   } /* Still kept for air and consistency */
 
-
   #meditate-main-content-box {
     display: flex;
     align-items: flex-start;
@@ -313,8 +312,6 @@ footer {
   #audio-main-container {
     max-width: 40%;
   }
-
- 
 
   .audio-mp3-title-container {
     margin-top: 30px;
@@ -347,7 +344,7 @@ footer {
   #audio-pic-container {
     padding: 20px;
     margin-top: 0px;
-    padding-top: 195px;/* Aligns with newly positioned audio */
+    padding-top: 195px; /* Aligns with newly positioned audio */
   }
 
   #text-container {
