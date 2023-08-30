@@ -103,6 +103,10 @@ This was carried out at a relatively early stage.
 
 4. etc
 
+## To consider for the future
+
+1. I am aware that I tend to use the past participle in my commit messages. I continue working on developing thehabit of using the imperative mode instead. 
+
 
 
 
