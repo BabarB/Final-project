@@ -11,6 +11,7 @@ Due to time constrainsts I was aiming for and MVP.
   ### Navigation bar
 The navigation menu is inside the header. The site features a standard responsive navigation menu on the top right. On the top left, in line with user expectations, there is a site logo that navigates the visitor back to the home page.
 A link redundancy (home as well as logo both redirect users to home) can be noted here, however this is often the case with websites, indluding the CI Walkthrough project. Because the average website visitor, like me, often encounters such redundancy, they will come to expect it. Considering the Stretegy Pane, such redundancy will impact the structure of the website to contribute to a good user experience.
+Todo add value to customer, consistent on all devices, responsive, they can access it from any device
 
 Due to the very specific audience of the site, the main page is not the landing page but the "meditate" page. Navigation from the home page to the page is further facilitated by call to action buttons.
 
@@ -52,13 +53,15 @@ Daisy best practice? New page on submitting contact form?
 ##  Deployment 
 
 The project wass deployed to Github early, on day 2, in order to enable me to test it live, on various devices, and gain feedback on progress. It was also useful because the Code Anywhere IDE often had connection issues. Continuous deployment prevented the loss of data and served as a backup of my work. 
+todo 3 parts here version control deployment repo gareth and credit
+
 
 ### Issues 
 
    I am aware that I tend to use the past participle in my commit messages. I continue working on developing thehabit of using the imperative mode instead. 
 
 
-
+todo create table in markdown generator for test types
 #### Functional testing
 Next to brosser tools, testing was carried out on actual devices by other people. So the tablet view was tested on an ipad, and the mobile view on a phone. Reasons:
 to give visitors of the site a real user experience, which leads to them sharing their first impressions. 
@@ -77,7 +80,7 @@ This was carried out at a relatively early stage.
 
 #### Form testing
 
-#### Validator testing
+#### Validator testing under the table w screenshots! wave!
 
 ## Credits
 
@@ -89,7 +92,7 @@ This was carried out at a relatively early stage.
     
     Formatting of the nav menu includibng the toggling of menu items with pure css
 
-    Idea for footer social media link ul list, this was enhanced by myself
+    Idea for footer social media link ul list
     
 2. The contact form was made using the following site:
    
@@ -137,7 +140,7 @@ There have been some deviations from this wireframe due to:
 
 * The learning process: I learnt about features along the way that I was not aware of at the time of creating the wireframe. E.g There are a lot more div wrappers than originally planned.
 
-* some features worked better than initially planned from a user experience point of view. An example is the meditation texts and downloadable PDFs on the meditate page.
+* some features worked better than initially planned from a user experience perspective. An example is the meditation texts and downloadable PDFs on the meditate page.
 
 The site's colour scheme was changed multiple times to accommodate contrast ratios for better accessibility.
 
