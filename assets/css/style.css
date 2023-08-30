@@ -333,8 +333,8 @@ footer {
   #audio-pic-container {
     flex: 1;
     width: 50%;
-    padding-top: 10px;
-  }
+    padding-top: 190px;
+  } /* Aligns with newly positioned audio. */
 
   img {
     border-radius: 10px;
@@ -346,7 +346,8 @@ footer {
 @media screen and (min-width: 1024px) {
   #audio-pic-container {
     padding: 20px;
-    margin-top: 0;
+    margin-top: 0px;
+    padding-top: 195px;/* Aligns with newly positioned audio */
   }
 
   #text-container {
