@@ -237,18 +237,20 @@ footer {
 
   header {
     width: 100%;
-    display: block;
+    display: flex;
     position: static;
     top: 5.5rem;
     overflow: hidden;
     font-size: 150%; /*this eliminated overflow*/
+    align-items: center;
   }
 
   nav {
-    display: block;
+    display: flex;
     position: static;
     width: 100%;
     box-shadow: none;
+    justify-content: end;
   }
 
   /*Top margin and padding no necessary for tablets, no dropdown menu */
