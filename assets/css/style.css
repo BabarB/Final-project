@@ -40,7 +40,7 @@ header {
 }
 
 header a {
-  color: #728de8;
+  color: #2a49b0;
 }
 
 h1 {
@@ -75,7 +75,7 @@ nav {
   width: 100%;
   left: 0;
   padding: 0 1rem;
-  box-shadow: 0 2px 2px #728de8;
+  box-shadow: 0 2px 2px #2a49b0;
   display: none;
   top: 100%;
 }
@@ -91,7 +91,7 @@ nav {
 
 .nav-toggle-label {
   font-size: 2rem;
-  color: #728de8;
+  color: #2a49b0;
 }
 
 /* Main content*/
@@ -140,7 +140,7 @@ main {
 
 .centered-button {
   padding: 15px 30px;
-  background-color: #728de8;
+  background-color: #2a49b0;
   font-size: x-large;
   color: white;
   border: none;
@@ -208,7 +208,7 @@ footer {
   font-size: 160%;
   padding: 5%;
 
-  color: #728de8;
+  color: #2a49b0;
 }
 
 #contact-details {
