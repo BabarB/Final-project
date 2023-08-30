@@ -26,7 +26,7 @@ body {
 
 /* Header */
 header {
-  background-color: #e8c372;
+  background-color: #d4c18e;
   width: 100%;
   padding: 1rem 1rem 1rem 2rem;
   /*what if i comment the below out*/
@@ -71,7 +71,7 @@ img {
 /* Navbar styles with dropdown toggle */
 nav {
   position: absolute;
-  background-color: #e8c372;
+  background-color: #d4c18e;
   width: 100%;
   left: 0;
   padding: 0 1rem;
@@ -177,7 +177,7 @@ main p {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 15px;
-  background-color: #f0f0f0;
+  background-color: #d4c18e;
   border-radius: 10px;
 }
 
@@ -185,6 +185,7 @@ main p {
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
 
 #audio-pic-container {
   margin-top: 20px;
@@ -194,7 +195,7 @@ main p {
 
 /* Footer*/
 footer {
-  background-color: #e8c372;
+  background-color: #d4c18e;
 }
 
 #social-networks {
