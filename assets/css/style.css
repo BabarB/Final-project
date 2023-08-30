@@ -29,10 +29,8 @@ header {
   background-color: #d4c18e;
   width: 100%;
   padding: 1rem 1rem 1rem 2rem;
-  /*what if i comment the below out*/
   position: absolute;
   z-index: 99;
-  /* todo: why?????*/
   box-shadow: 0 2px 4px #2a49b0;
   display: flex;
   justify-content: space-between;
@@ -303,7 +301,8 @@ footer {
 
   #main-container {
     margin-top: 100px;
-  }
+  } /* Still kept for air and consistency */
+
 
   #meditate-main-content-box {
     display: flex;
@@ -314,6 +313,8 @@ footer {
   #audio-main-container {
     max-width: 40%;
   }
+
+ 
 
   .audio-mp3-title-container {
     margin-top: 30px;
