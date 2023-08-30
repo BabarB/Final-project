@@ -82,7 +82,8 @@ nav {
 
 /* Nav toggle */
 #nav-toggle:checked ~ nav {
-  display: block;
+  display: flex;
+  justify-content: end;
 }
 
 #nav-toggle {
