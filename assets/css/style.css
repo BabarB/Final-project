@@ -132,9 +132,9 @@ main {
 }
 
 .content-box h1 {
-    margin-top:  20px;
-    margin-bottom: 30px;
-  }
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
 .centered-button-container {
   display: flex;
@@ -191,7 +191,8 @@ main p {
   margin-bottom: 20px;
 }
 
-.audio-mp3-container audio {width: 100%;
+.audio-mp3-container audio {
+  width: 100%;
 }
 
 #audio-pic-container {
@@ -248,9 +249,14 @@ footer {
     position: static;
     width: 100%;
     box-shadow: none;
-    /*padding: 0;
-        
-        top: 3rem; */
+  }
+
+  /*Top margin and padding no necessary for tablets, no dropdown menu */
+  main {
+    padding-top: 0;
+  }
+  #text-container {
+    margin-top: 0;
   }
 
   #menu {
@@ -316,7 +322,8 @@ footer {
     margin-right: 0; /* Reset margin for audio container */
   }
 
-  .audio-mp3-container audio {width: 100%;
+  .audio-mp3-container audio {
+    width: 100%;
   }
 
   #audio-pic-container {
