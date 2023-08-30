@@ -3,8 +3,10 @@
 ## Features
 
 Declutter! is the first rough  version of a project I would like to extend in the future. The target audience is people with shopping addiction, to which the website offers meditation as a temporary solution. I have encountered people suffering from shopping addiction in my family and previous career. As regular meditator I strongly believe that this could be the answer for them.
-  The website was coded using the mobile fist principle: following coding for mobile, I then went on to code for tablet and then laptop and larger screens. 
-  
+The website was coded using the mobile fist principle: following coding for mobile, I then went on to code for tablet and then laptop and larger screens. 
+
+Due to time constrainsts I was aiming for and MVP
+
   
   ### Navigation bar
 The navigation menu is inside the header. The site features a standard responsive navigation menu on the top right. On the top left, in line with user expectations, there is a site logo that navigates the visitor back to the home page.
@@ -14,7 +16,6 @@ Due to the very specific audience of the site, the main page is not the landing 
 
 ### The Main Content
 On both the landing and the meditate page, the main content consists of text on the laft and an image on the right. It is not a background image as its purpose is to emphasize the message of the site.
-
 
 
 
@@ -45,8 +46,8 @@ Daisy best practice? New page on submitting contact form?
 ### Features left to implement
 
  1. 404 page: this is important for both human visitors and browser bots to crawl the site correctly.
- 2. User login: this requires a backend including a user database to check user credentials. 
- 3. 
+ 2. User login: this requires a backend including a user database to check user credentials, and we have not reached this stage yet.
+ 3. Audio controls: the browser default audio controls are really basic and do not contribute to a good user experience Due to tme constrainst and focusing on the MVP, I decided to implement those and include short instructions for the user as a workaround. Current technologies offer better embedded audio players.
 
 
 
@@ -111,8 +112,7 @@ however the button did not open link in new window despite target _blank . The f
 
 
 ## Design
-I created a basic wireframe: Daisy shall I redo it retrospectively?
-wireframe images come here
+I created a basic wireframe, only for desktops. As a result of my learning process, I deviated from this wireframe. 
 
 
 
