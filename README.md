@@ -112,7 +112,15 @@ however the button did not open link in new window despite target _blank . The f
 
 
 ## Design
-I created a basic wireframe, only for desktops. As a result of my learning process, I deviated from this wireframe. 
+I created a basic wireframe, only for desktops. 
+
+img
+
+As a result of my learning process, I deviated from this wireframe at times. 
+
+Other times I came across features that  some features that worked better than initially planned from a user experience point of view. An example is the meditation texts and downloadable PDFs on the meditate page.
+
+
 
 
 
