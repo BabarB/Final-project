@@ -63,6 +63,11 @@ to give visitors of the site a real user experience, which leads to them sharing
 
 #### Lighthouse testing
 
+This was carried out at a relatively early stage. 
+
+![lighthouse image](docs/lighthouse.png)
+
+#### Daisy testing
 
 #### Form testing
 
@@ -112,13 +117,15 @@ however the button did not open link in new window despite target _blank . The f
 
 
 ## Design
-I created a basic wireframe, only for desktops. 
+I created a basic wireframe, only for desktops. This served to give me a basic idea, leaving some room for modifications later.
 
 img
 
-As a result of my learning process, I deviated from this wireframe at times. 
+There have been some deviations from this wireframe due to: 
 
-Other times I came across features that  some features that worked better than initially planned from a user experience point of view. An example is the meditation texts and downloadable PDFs on the meditate page.
+* The learning process: I learnt about features along the way that I was not aware of at the time of creating the wireframe. E.g There are a lot more div wrappers than originally planned.
+
+* some features worked better than initially planned from a user experience point of view. An example is the meditation texts and downloadable PDFs on the meditate page.
 
 
 
