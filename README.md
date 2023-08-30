@@ -5,20 +5,17 @@
 Declutter! is the first rough  version of a project I would like to extend in the future. The target audience is people with shopping addiction, to which the website offers meditation as a temporary solution. I have encountered people suffering from shopping addiction in my family and previous career. As regular meditator I strongly believe that this could be the answer for them.
 The website was coded using the mobile fist principle: following coding for mobile, I then went on to code for tablet and then laptop and larger screens. 
 
-Due to time constrainsts I was aiming for and MVP
+Due to time constrainsts I was aiming for and MVP. 
 
   
   ### Navigation bar
 The navigation menu is inside the header. The site features a standard responsive navigation menu on the top right. On the top left, in line with user expectations, there is a site logo that navigates the visitor back to the home page.
 A link redundancy (home as well as logo both redirect users to home) can be noted here, however this is often the case with websites, indluding the CI Walkthrough project. Because the average website visitor, like me, often encounters such redundancy, they will come to expect it. Considering the Stretegy Pane, such redundancy will impact the structure of the website to contribute to a good user experience.
 
-Due to the very specific audience of the site, the main page is not the landing page but the "meditate" page. Navigation to this page is further facilitated by call to action buttons.
+Due to the very specific audience of the site, the main page is not the landing page but the "meditate" page. Navigation from the home page to the page is further facilitated by call to action buttons.
 
 ### The Main Content
 On both the landing and the meditate page, the main content consists of text on the laft and an image on the right. It is not a background image as its purpose is to emphasize the message of the site.
-
-
-
 ### Further readings section
 Repeating on both the landing and the meditate page for consistency, this is aimed at the user who is willling to scroll on, out of interest in further information or because of needing the meditation scripts.
 
@@ -56,10 +53,19 @@ Daisy best practice? New page on submitting contact form?
 
 The project wass deployed to Github early, on day 2, in order to enable me to test it live, on various devices, and gain feedback on progress. It was also useful because the Code Anywhere IDE often had connection issues. Continuous deployment prevented the loss of data and served as a backup of my work. 
 
+### Issues 
+
+   I am aware that I tend to use the past participle in my commit messages. I continue working on developing thehabit of using the imperative mode instead. 
+
+
 
 #### Functional testing
 Next to brosser tools, testing was carried out on actual devices by other people. So the tablet view was tested on an ipad, and the mobile view on a phone. Reasons:
-to give visitors of the site a real user experience, which leads to them sharing their first impressions. The test was carr
+to give visitors of the site a real user experience, which leads to them sharing their first impressions. 
+This helped me identify and eliminate the following issues
+1. When viewing the site on an actual ipad, I noticed the main element shrinking. Further observations revealed that it was actually the header nav, and particularly the menu list items that are oversized. This could be easily eliminated in CSS:
+   screenshot
+   code
 
 #### Lighthouse testing
 
@@ -103,9 +109,7 @@ This was carried out at a relatively early stage.
 
 4. etc
 
-## To consider for the future
 
-1. I am aware that I tend to use the past participle in my commit messages. I continue working on developing thehabit of using the imperative mode instead. 
 
 
 
