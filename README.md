@@ -22,56 +22,39 @@ On both the landing and the meditate page, the main content consists of text on 
 Repeating on both the landing and the meditate page for consistency, this is aimed at the user who is willling to scroll on, out of interest in further information or because of needing the meditation scripts.
 
 ### The Footer
-Links to social media sites are located in the footer. For my own privary, I used dummy links that open in a new window. The youtube channel, as I do not have one yet, points to my husband's channel as a temporary fix, in case the assessors of the site fancy listening to some good music.
+Links to social media sites are located in the footer. For my own privacy, I used dummy links that open in a new window. The youtube channel, as I do not have one yet, points to my husband's channel as a temporary fix, in case the assessors of the site fancy listening to some good music.
 
-### Page specific info
+### Page specific features
 
-#### Index.html
-On the landing page, visitors will find information about meditation's ability to tackle shopping addiction. The first text is fairly short and uses a personal, question format to raise the immediate interest of those affected. If this resonates with them, they can click the call to action button straight away to land on the "Meditate" page. Undecisive visitors can read a text with further information, after which the same call to action button repeats for their convenience (i.e. to avoid having to scroll up again). This is another example of redundancy facilitating user experience, with the strategic pane impacting on the structural pane.
+1. Index.html
+   
+   On the landing page, visitors will find information about meditation's ability to tackle shopping addiction. The first text is fairly short and uses a personal, question format to raise the immediate interest of those affected. If this resonates with them, they can click the call to action button straight away to land on the "Meditate" page. Undecisive visitors can read a text with further information, after which the same call to action button repeats for their convenience (i.e. to avoid having to scroll up again). This is another example of redundancy facilitating user experience, with the UX strategic pane impacting on the structural pane.
 
-#### Meditate.html
-This is the main page of the website where the users can use the actual service. If for any reason the visitor prefers the sript, these can be downloaded as pdf or read directly in the browser.
+2. Meditate.html
+   
+   This is the main page of the website where the users can use the actual service. If for any reason the visitor prefers the sript, these can be downloaded as pdf or read directly in the browser.
+    
+    Consistency across the site is very iportant for good user experience. Therefore, this page has an identical structure with the home page: main text to the left, image to the right, further reading by scrolling down.
+    Hearing impaired users, or those who prefer to read the text for themselves, are able to download the scripts of the files or read the scripts directly in the browser.
+3. Contact.html
 
-#### Contact.html
-This  has a simple contact form to enable visitors to contact the site owner by email.
+     This  has a simple contact form to enable visitors to contact the site owner by email.
+??? Will it be like home and meditate???
+Daisy best practice? New page on submitting contact form?
+
+### Features left to implement
+
+ 1. 404 page: this is important for both human visitors and browser bots to crawl the site correctly.
+ 2. User login: this requires a backend including a user database to check user credentials. 
+ 3. 
+
+
 
 ---
+##  Deployment 
 
+The project wass deployed to Github on day 2, in order to enable me to test it live, on various devices, and gain feedback on progress.
 
-
-
-
-## Resources:
-
-* Taken from CI's love running tutorial:
-
-  * meta tags
-  * Formattting of the nav menu includibng the toggling of menu items with pure css
-
-  * Idea for footer social media link ul list, this was enhanced by myself
-  * the contact form.
-
-* For the favicon i used Daisy McGirr's youtube video: https://www.youtube.com/watch?v=W809I-d9xTg 
-
-* For generating the favicon used the following generator: https://favicon.io/favicon-generator/
-
-* For the pictures I used https://www.istockphoto.com/
-
-
-* I used ChatGPT to create the initial draft texts, these were then rewritten by myself to sound more relevant and personal to the site's visitor.
-
-* The meditation audios were read by Robert Tubb.
-
-## Issues
-* Fix button issue: used this to make button: https://www.w3schools.com/howto/howto_css_center_button.asp
-however the button did not open link in new window despite target _blank . The following website helped me fix this issue: https://medium.com/design-code-repository/a-vs-button-b859547cae4d
-
-
-
-
-##  Deployment and Testing
-### 
-Testing
 
 #### Functional testing
 Next to brosser tools, testing was carried out on actual devices by other people. So the tablet view was tested on an ipad, and the mobile view on a phone. Reasons:
@@ -81,6 +64,48 @@ to give visitors of the site a real user experience, which leads to them sharing
 
 
 #### Form testing
+
+## Credits
+
+### Content
+
+1. The following elements were created based on CI's Love Running tutorial:
+
+    meta tags
+    
+    Formatting of the nav menu includibng the toggling of menu items with pure css
+
+    Idea for footer social media link ul list, this was enhanced by myself
+    
+2. The contact form was made using the following site:
+   
+
+  
+### Media
+
+1. Favicon
+  
+    For the favicon i used Daisy McGirr's youtube video: https://www.youtube.com/watch?v=W809I-d9xTg 
+
+    For generating the favicon used the following generator: https://favicon.io/favicon-generator/
+
+2. For the pictures I used https://www.istockphoto.com/
+
+3. For the initial draft texts, these were written by ChatGPT then rewritten by myself to sound more relevant and personal to the site's visitor.
+
+4. etc
+
+
+
+
+
+## Issues
+* Fix button issue: used this to make button: https://www.w3schools.com/howto/howto_css_center_button.asp
+however the button did not open link in new window despite target _blank . The following website helped me fix this issue: https://medium.com/design-code-repository/a-vs-button-b859547cae4d
+
+
+
+
 
 
 
