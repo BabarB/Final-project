@@ -1,5 +1,5 @@
 # Declutter!
-  
+  Todo https://ui.dev/amiresponsive
 ## Features
 
 Declutter! is the first rough  version of a project I would like to extend in the future. The target audience is people with shopping addiction, to which the website offers meditation as a temporary solution. I have encountered people suffering from shopping addiction in my family and previous career. As regular meditator I strongly believe that this could be the answer for them.
@@ -45,7 +45,7 @@ Daisy best practice? New page on submitting contact form?
 
 ### Features left to implement
 
- 1. 404 page: this is important for both human visitors and browser bots to crawl the site correctly.
+ 1. Styled 404 page: this is important for both human visitors and browser bots to crawl the site correctly. Currently the 404 page is automatically provided by Github.
  2. User login: this requires a backend including a user database to check user credentials, and we have not reached this stage yet.
  3. Audio controls: the browser default audio controls are really basic and do not contribute to a good user experience Due to tme constrainst and focusing on the MVP, I decided to implement those and include short instructions for the user as a workaround. Current technologies offer better embedded audio players.
 
@@ -54,7 +54,7 @@ Daisy best practice? New page on submitting contact form?
 ---
 ##  Deployment 
 
-The project wass deployed to Github on day 2, in order to enable me to test it live, on various devices, and gain feedback on progress.
+The project wass deployed to Github early, on day 2, in order to enable me to test it live, on various devices, and gain feedback on progress. It was also useful because the Code Anywhere IDE often had connection issues. Continuous deployment prevented the loss of data and served as a backup of my work. 
 
 
 #### Functional testing
@@ -70,6 +70,8 @@ This was carried out at a relatively early stage.
 #### Daisy testing
 
 #### Form testing
+
+#### Validator testing
 
 ## Credits
 
@@ -106,7 +108,7 @@ This was carried out at a relatively early stage.
 
 
 ## Issues
-* Fix button issue: used this to make button: https://www.w3schools.com/howto/howto_css_center_button.asp
+1. Fix button issue: used this to make button: https://www.w3schools.com/howto/howto_css_center_button.asp
 however the button did not open link in new window despite target _blank . The following website helped me fix this issue: https://medium.com/design-code-repository/a-vs-button-b859547cae4d
 
 
@@ -119,13 +121,17 @@ however the button did not open link in new window despite target _blank . The f
 ## Design
 I created a basic wireframe, only for desktops. This served to give me a basic idea, leaving some room for modifications later.
 
-img
+![](docs/wireframe-1.png)
+![](docs/wireframe-2.png)
+![](docs/wireframe-3.png)
 
 There have been some deviations from this wireframe due to: 
 
 * The learning process: I learnt about features along the way that I was not aware of at the time of creating the wireframe. E.g There are a lot more div wrappers than originally planned.
 
 * some features worked better than initially planned from a user experience point of view. An example is the meditation texts and downloadable PDFs on the meditate page.
+
+The site's colour scheme was changed multiple times to accommodate contrast ratios for better accessibility.
 
 
 
