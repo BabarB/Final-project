@@ -213,7 +213,32 @@ main p {
   margin-bottom: 20px;
   margin-right: 10px;
 }
+/* contactbox elements mobile */
+#contact-main-container h1 {
+    margin-top: 100px;
+    
+  }
 
+  #forms-and-tables {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #d4c18e;
+    border-radius: 10px;
+  }
+
+  #forms-and-tables h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  
+  #form-pic-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  
 /* Footer*/
 footer {
   background-color: #d4c18e;
@@ -313,8 +338,8 @@ footer {
 
   #text-container,
   #pic-container,
-  #contact-pic-container,
-  #contact-text-container {
+  #form-inner-container,
+  #form-pic-container {
     flex: 1;
   } /* Allow both divs to grow and take equal space */
 
