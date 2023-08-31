@@ -64,6 +64,9 @@ img {
     text-decoration: underline;
     }
 
+ #menu a:hover {
+        background-color: rgb(209, 161, 106);
+      } 
 
 
 /* Small down menu to fit into screen */
@@ -92,11 +95,7 @@ nav {
   display: flex;
   justify-content: end;
 }
-#menu a:hover {
-    background-color: rgb(209, 161, 106);
-  }
-  
-  }
+
 
 #nav-toggle {
   display: none;
