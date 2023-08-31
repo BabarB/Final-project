@@ -11,11 +11,13 @@ Due to time constrainsts I was aiming for and MVP.
   ### Navigation bar
 The navigation menu is inside the header. The site features a standard responsive navigation menu on the top right. On the top left, in line with user expectations, there is a site logo that navigates the visitor back to the home page.
 A link redundancy (home as well as logo both redirect users to home) can be noted here, however this is often the case with websites, indluding the CI Walkthrough project. Because the average website visitor, like me, often encounters such redundancy, they will come to expect it. Considering the Stretegy Pane, such redundancy will impact the structure of the website to contribute to a good user experience.
-Todo add value to customer, consistent on all devices, responsive, they can access it from any device
+The active page is underlined to show the visitor where they are. The hovered menu items also change colour to a theme colour of the site. The navigation is consistent on all devices,and is responsive. One excention is the mobile, wher the toggling hamburger menu eliminates the need to underlined active pages.
 
-Due to the very specific audience of the site, the main page is not the landing page but the "meditate" page. Navigation from the home page to the page is further facilitated by call to action buttons.
+
 
 ### The Main Content
+Due to the very specific audience of the site, the main page is not the landing page but the "meditate" page. Navigation from the home page to the meditate page is further facilitated by call to action buttons.
+
 On both the landing and the meditate page, the main content consists of text on the laft and an image on the right. It is not a background image as its purpose is to emphasize the message of the site.
 ### Further readings section
 Repeating on both the landing and the meditate page for consistency, this is aimed at the user who is willling to scroll on, out of interest in further information or because of needing the meditation scripts.
