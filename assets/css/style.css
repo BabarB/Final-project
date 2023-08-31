@@ -39,6 +39,7 @@ header {
 
 header a {
   color: #2a49b0;
+  text-decoration: none;
 }
 
 h1 {
@@ -55,22 +56,22 @@ img {
 #menu {
   letter-spacing: 2px;
   list-style-type: none;
-  text-decoration: none;
+  
 }
+
+
+#menu a .active {
+    text-decoration: underline;
+    }
+
 /* Small down menu to fit into screen */
 #menu > li {
   margin-bottom: 0.5em;
   margin-left: 1rem;
-  text-decoration: none;
+  
 }
 
-header a{
-    text-decoration: none;
-}
 
-.active {
-  text-decoration: underline;
-}
 
 /* Navbar styles with dropdown toggle */
 nav {
@@ -82,7 +83,6 @@ nav {
   box-shadow: 0 2px 2px #2a49b0;
   display: none;
   top: 100%;
-  text-decoration: none;
 }
 
 /* Nav toggle */
@@ -98,6 +98,7 @@ nav {
 .nav-toggle-label {
   font-size: 2rem;
   color: #2a49b0;
+  
 }
 
 /* Main content*/
@@ -259,10 +260,15 @@ footer {
     justify-content: end;
   }
 
+  #menu .active {
+    text-decoration: underline;
+    }
+
   /*Top margin and padding no necessary for tablets, no dropdown menu */
   main {
     padding-top: 0;
   }
+
   #text-container {
     margin-top: 0;
   }
@@ -282,6 +288,10 @@ footer {
   .nav-toggle-label {
     display: none;
   }
+
+  #logo{text-decoration: underline;
+  }
+  
 
   /* Small down menu to fit into screen */
   #menu > li {
