@@ -232,8 +232,7 @@ main p {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-
-    
+  
 }
   
   #form-pic-container {
@@ -241,6 +240,18 @@ main p {
     margin-bottom: 20px;
     margin-right: 10px;
   }
+
+  #submit-button {padding: 15px 30px;
+  background-color: #2a49b0;
+  font-size: x-large;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: none;
+  margin-top: 20px;
+}
   
 /* Footer*/
 footer {
