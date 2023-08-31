@@ -214,21 +214,22 @@ main p {
   margin-right: 10px;
 }
 /* contactbox elements mobile */
-#contact-main-container h1 {
+#form-inner-container h1 {
     margin-top: 100px;
     
   }
 
-  #form-and-labels {
-     /* display: flex;
+  /*#form-and-labels {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 15px;
     background-color: #d4c18e;
-    border-radius: 10px;  */
+    border-radius: 10px;
   }
+  */
 
   #form-and-labels h2 {
     margin-top: 30px;
