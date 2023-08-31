@@ -219,18 +219,6 @@ main p {
     
   }
 
-  /*#form-and-labels {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #d4c18e;
-    border-radius: 10px;
-  }
-  */
-
   #form-and-labels h2 {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -399,7 +387,20 @@ footer {
   img {
     border-radius: 10px;
   }
+/* Style content form elements for tablet  */
+  #contact-main-container-form-and-pic {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  #form-pic-container {
+    flex: 1;
+    padding-top: 180px; /* Align with contact form */
+    padding-left: 20px;
+/* Content form elements for tablet ends here */
 }
+
+
 /* Media query ipad ends here. */
 
 /* Media query for laptops and higher to align image  and make smaller */
@@ -407,7 +408,7 @@ footer {
   #audio-pic-container {
     padding: 20px;
     margin-top: 0px;
-    padding-top: 195px; /* Aligns with newly positioned audio */
+    padding-top: 195px; /* Align with newly positioned audio */
   }
 
   #text-container {
@@ -420,4 +421,5 @@ footer {
     width: 100%;
     margin: 20px;
   }
+  /* TODO make mediaquery for contactform */
 }
