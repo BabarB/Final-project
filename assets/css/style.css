@@ -427,5 +427,16 @@ margin-top: 100px;
     width: 100%;
     margin: 20px;
   }
-  /* TODO make mediaquery for contactform */
+  #form-inner-container {padding: 0 40px;
+    margin: 0 40px;
+    
+}
+.form-group, #submit-button {
+    max-width: 70%;
+}
+
+.content-box {
+   padding-left: 50px;
+   padding-top: 50px;
+}
 }

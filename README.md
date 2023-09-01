@@ -57,16 +57,16 @@ Links to social media sites are located in the footer. For my own privacy, I use
      This  has a simple contact form to enable visitors to contact the site owner by email. Required fields are:
      
   *  first name: some users prefer to stay anonymus
-  *  email address: so their email can be replied
-  *  message block: to identify bots
+  *  email address: to identify genuine users
+  *  message block: as this is the purpose of a contact form.
 
 ### Features left to implement
 
- 1. Styled 404 page: this is important for both human visitors and browser bots to crawl the site correctly. Currently the 404 page is automatically provided by Github.
- 2. User login: this requires a backend including a user database to check user credentials, and we have not reached this stage yet.
- 3. Audio controls: the browser default audio controls are basic and do not reflect to a good user experience: Play and pause are on the same button, the volume is muted by default. Due to time constrainst and focusing on the MVP, I still used the browser audio and included short instructions to the user as a workaround. Current technologies offer better embedded audio players.
- 4. Form dump: this 
-
+ 1. Styled 404 page: this is important for both human visitors and [browser bots to crawl the site correctly](https://seosly.com/blog/do-404-errors-hurt-seo/#:~:text=Yes%2C%20404%20errors%20can%20impact,crawling%20these%20non%2Dexistent%20pages.). Currently the 404 page is automatically provided by Github.
+ 2. User login: this requires a backend including a user database to check user credentials, the learning has not reached this stage yet.
+ 3. Audio controls: the browser default audio controls are basic and do not reflect to a good user experience: Play and pause are on the same button, the volume is muted by default. For learning pueposes, the browser default audio was used. Current technologies offer better embedded audio players.
+4. The footer contact details section provides dummy details. As mentioned before, it is a placeholder for data handling and cookie policies. Visitors to the website should use the contact form instead. The social media links can also be swapped to actual ones once the service proviver is no longer an imaginary one.
+5.  
 
 
 ---
@@ -82,27 +82,22 @@ todo 3 parts here version control deployment repo gareth and credit
 2.  I am aware that I tend to use the past participle in my commit messages. I continue working on developing thehabit of using the imperative mode instead. 
 3.  
 
+### Testing
 
-todo create table in markdown generator for test types
-#### Functional testing
-Next to brosser tools, testing was carried out on actual devices by other people. So the tablet view was tested on an ipad, and the mobile view on a phone. Reasons:
-to give visitors of the site a real user experience, which leads to them sharing their first impressions. 
-This helped me identify and eliminate the following issues
-1. When viewing the site on an actual ipad, I noticed the main element shrinking. Further observations revealed that it was actually the header nav, and particularly the menu list items that are oversized. This could be easily eliminated in CSS:
-   screenshot
-   code
+ **Test Type**  | **Purpose**                                      | **Methods Used**                  | **Result**                           
+----------------|--------------------------------------------------|-----------------------------------|--------------------------------------
+ **Functional** | Check Responsivity On Multiple Devices           | Chrome Devtools, Real Devices     | Pages Are Responsive Without Overlay 
+ **Lighthouse** | Performance, Accessibility, Best practices, SEO  | Chrome Devtools Lightouse feature | Results are above 90 %               
+ **Form**       | Check If The Form Submits                        | Code Institute Formdump           | Data have been sent                  
+ **Validators** | Check errors in code                             | W3C HTML and CSS validator        | No errors                            
 
-#### Lighthouse testing
+#### Functional Testing
 
-This was carried out at a relatively early stage. 
+#### Lighthouse Testing
 
-![lighthouse image](docs/lighthouse.png)
+#### Form Testing
 
-#### Daisy testing
-
-#### Form testing
-
-#### Validator testing under the table w screenshots! wave!
+#### Validator Testing
 
 ## Credits
 
@@ -110,39 +105,39 @@ This was carried out at a relatively early stage.
 
 1. The following elements were created based on CI's Love Running tutorial:
 
-    meta tags
+* meta tags
     
-    Formatting of the nav menu includibng the toggling of menu items with pure css
+* Formatting of the nav menu including the toggling of menu items with pure css
 
-    Idea for footer social media link ul list
+*  Idea for footer social media link ul list
     
-2. The contact form was made using the following site:
-   
+2.  The contact form was made using the following site:
+   https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form
+3. Code Institute's form dump was used for testing the contact form functionality.
+4. Ideas were used, without copying any code, from
+  [this repo](https://github.com/Gareth-McGirr/tacos-travels).
+  
 
   
 ### Media
 
 1. Favicon
   
-    For the favicon i used Daisy McGirr's youtube video: https://www.youtube.com/watch?v=W809I-d9xTg 
+    For the favicon i used [Daisy McGirr's youtube video](https://www.youtube.com/watch?v=W809I-d9xTg).
 
     For generating the favicon used the following generator: https://favicon.io/favicon-generator/
 
-2. For the pictures I used https://www.istockphoto.com/
+2. For the pictures I used https://www.istockphoto.com/.
+3. The image on the Meditate site was AI generated by my husband.
+4. For the initial draft texts, these were written by ChatGPT then rewritten by myself to sound more relevant and personal to the site's visitor.
 
-3. For the initial draft texts, these were written by ChatGPT then rewritten by myself to sound more relevant and personal to the site's visitor.
-
-4. etc
-
-
-
-
-
-
+   
 
 ## Issues
 1. Fix button issue: used this to make button: https://www.w3schools.com/howto/howto_css_center_button.asp
 however the button did not open link in new window despite target _blank . The following website helped resolve this issue: https://medium.com/design-code-repository/a-vs-button-b859547cae4d 
+
+2. 
 
 
 
