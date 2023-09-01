@@ -22,6 +22,7 @@ body {
   /* General styling for project */
   color: black;
   font-family: "Dosis", sans-serif;
+   background-color: lightgray;
 }
 
 /* Header */
@@ -101,7 +102,7 @@ nav {
 
 /* Main content*/
 main {
-  background-color: lightgray;
+ 
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
  
@@ -348,7 +349,7 @@ margin-top: 100px;
   #text-container,
   #pic-container,
   #form-inner-container,
-  #form-pic-container {
+  {
     flex: 1;
   } /* Allow both divs to grow and take equal space */
 
@@ -410,6 +411,12 @@ margin-top: 100px;
 
 /* Media query for laptops and higher to align image  and make smaller */
 @media screen and (min-width: 1024px) {
+
+    main {
+        max-width: 1480px;
+        margin: 0 auto;
+    }
+
   #audio-pic-container {
     padding: 20px;
     margin-top: 0px;
@@ -435,8 +442,10 @@ margin-top: 100px;
     max-width: 70%;
 }
 
+
 .content-box {
    padding-left: 50px;
    padding-top: 50px;
 }
+
 }
