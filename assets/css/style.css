@@ -56,27 +56,21 @@ img {
 #menu {
   letter-spacing: 2px;
   list-style-type: none;
-  
 }
 
-
 #menu a .active {
-    text-decoration: underline;
-    }
+  text-decoration: underline;
+}
 
- #menu a:hover {
-        background-color: rgb(209, 161, 106);
-      } 
-
+#menu a:hover {
+  background-color: rgb(209, 161, 106);
+}
 
 /* Small down menu to fit into screen */
 #menu > li {
   margin-bottom: 0.5em;
   margin-left: 1rem;
-  
 }
-
-
 
 /* Navbar styles with dropdown toggle */
 nav {
@@ -96,7 +90,6 @@ nav {
   justify-content: end;
 }
 
-
 #nav-toggle {
   display: none;
 }
@@ -104,7 +97,6 @@ nav {
 .nav-toggle-label {
   font-size: 2rem;
   color: #2a49b0;
-  
 }
 
 /* Main content*/
@@ -123,7 +115,7 @@ main {
 #contact-main-container {
   display: flex;
   flex-direction: column; /* Stack the divs vertically on mobile */
-  align-items: center; /* Center content horizontally */
+  /* align-items: center; /* Center content horizontally */
 }
 
 #text-container {
@@ -215,33 +207,33 @@ main p {
 }
 /* contactbox elements mobile */
 #form-inner-container h1 {
-    margin-top: 100px;
-    
-  }
-
-  #form-and-labels h2 {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-
-  #form-and-labels label{
-    margin-bottom: 5px;
-  }
-
-#form-and-labels input, #form-and-labels textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-  
+  margin-top: 100px;
 }
-  
-  #form-pic-container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-  }
 
-  #submit-button {padding: 15px 30px;
+#form-and-labels h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#form-and-labels label {
+  margin-bottom: 5px;
+}
+
+#form-and-labels input,
+#form-and-labels textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#form-pic-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+#submit-button {
+  padding: 15px 30px;
   background-color: #2a49b0;
   font-size: x-large;
   color: white;
@@ -252,7 +244,7 @@ main p {
   text-decoration: none;
   margin-top: 20px;
 }
-  
+
 /* Footer*/
 footer {
   background-color: #d4c18e;
@@ -307,7 +299,7 @@ footer {
 
   #menu .active {
     text-decoration: underline;
-    }
+  }
 
   /*Top margin and padding no necessary for tablets, no dropdown menu */
   main {
@@ -334,9 +326,9 @@ footer {
     display: none;
   }
 
-  #logo{text-decoration: underline;
+  #logo {
+    text-decoration: underline;
   }
-  
 
   /* Small down menu to fit into screen */
   #menu > li {
@@ -398,9 +390,9 @@ footer {
   img {
     border-radius: 10px;
   }
-/* Style content form elements for tablet  */
+  /* Style content form elements for tablet  */
   #contact-main-container-form-and-pic {
-    display:flex;
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
   }
@@ -408,10 +400,9 @@ footer {
     flex: 1;
     padding-top: 180px; /* Align with contact form */
     padding-left: 20px;
-/* Content form elements for tablet ends here */
+    /* Content form elements for tablet ends here */
+  }
 }
-}
-
 /* Media query ipad ends here. */
 
 /* Media query for laptops and higher to align image  and make smaller */
@@ -425,7 +416,7 @@ footer {
   #text-container {
     margin-left: 50px;
   }
-  
+
   #audio-main-container {
     max-width: 50%;
   }
