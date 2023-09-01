@@ -112,7 +112,7 @@ todo 3 parts here version control deployment repo gareth and credit
 *  Idea for footer social media link ul list
     
 2.  The contact form was made using the following site:
-   https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form
+   httpTs://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form
 3. Code Institute's form dump was used for testing the contact form functionality.
 4. Ideas were used, without copying any code, from
   [this repo](https://github.com/Gareth-McGirr/tacos-travels).
@@ -137,7 +137,9 @@ todo 3 parts here version control deployment repo gareth and credit
 1. Fix button issue: used this to make button: https://www.w3schools.com/howto/howto_css_center_button.asp
 however the button did not open link in new window despite target _blank . The following website helped resolve this issue: https://medium.com/design-code-repository/a-vs-button-b859547cae4d 
 
-2. 
+2. Wave threw an error because of the empty form label. 
+   screenshot!!!!
+   However this has been done based on CI's tutorial. I have not been able to eliminate this, and the overhead of correcting this would have been too much.
 
 
 
