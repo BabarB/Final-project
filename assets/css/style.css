@@ -105,8 +105,7 @@ main {
  
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
- 
-  padding-top: 75px;
+ padding-top: 75px;
 }
 
 #main-container,
@@ -438,9 +437,6 @@ margin-top: 100px;
   #form-inner-container {padding: 0 40px;
     margin: 0 40px;
     
-}
-.form-group, #submit-button {
-    max-width: 70%;
 }
 
 
