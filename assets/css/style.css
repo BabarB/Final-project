@@ -104,9 +104,7 @@ main {
   background-color: lightgray;
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
-  /*fix error as per tutorial 
-    margin-top: 75px; 
-    deleted as causing whitespace, padding*/
+ 
   padding-top: 75px;
 }
 
@@ -115,7 +113,7 @@ main {
 #contact-main-container {
   display: flex;
   flex-direction: column; /* Stack the divs vertically on mobile */
-  /* align-items: center; /* Center content horizontally */
+  
 }
 
 #text-container {
@@ -308,6 +306,11 @@ footer {
 
   #text-container {
     margin-top: 0;
+  }
+
+  #pic-container{
+margin-top: 100px;
+
   }
 
   #menu {
