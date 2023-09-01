@@ -1,12 +1,27 @@
 # Declutter!
   Todo https://ui.dev/amiresponsive
-## Features
 
-Declutter! is the first rough  version of a project I would like to extend in the future. The target audience is people with shopping addiction, to which the website offers meditation as a temporary solution. I have encountered people suffering from shopping addiction in my family and previous career. As regular meditator I strongly believe that this could be the answer for them.
+  Declutter! is the first rough  version of a project I would like to extend in the future. The target audience is people with shopping addiction, to which the website offers meditation as a temporary solution. I have encountered people suffering from shopping addiction in my family and previous career. As regular meditator I strongly believe that this could be the answer for them.
 The website was coded using the mobile fist principle: following coding for mobile, a media query was added laptop and larger screens. 
 Due to time constrainsts I was aiming for a MVP. 
 
-  
+  ## Design
+I created a basic wireframe, only for desktops. This served to give me a basic idea, leaving some room for modifications later.
+
+![](docs/wireframe-1.png)
+![](docs/wireframe-2.png)
+![](docs/wireframe-3.png)
+
+There have been some deviations from this wireframe due to: 
+
+* The learning process: I learnt about features along the way that I was not aware of at the time of creating the wireframe. For example, most line breaks used at the beginning became div containers, for styling reasons and because, as I later learned, this is not considered asgood practice.
+
+* some features worked better than initially planned from a user experience perspective. An example is the meditation texts and downloadable PDFs on the meditate page. Furthermore, the contact page no longer contains an "our mission" text, as too much reading is bad user experience.
+
+
+## Features
+
+
   ### Navigation bar
 The navigation menu is inside the header. The site features a standard responsive navigation menu on the top right. On the top left, in line with user expectations, there is a site logo that navigates the visitor back to the home page.
 A link redundancy (home as well as logo both redirect users to home) can be noted here, however this is often the case with websites, indluding the CI Walkthrough project. Because the average website visitor often encounters such redundancy, they will come to expect it. Considering the Stretegy Pane, such redundancy will positively impact the structure of the website and contribute to a better good user experience.
@@ -63,7 +78,9 @@ todo 3 parts here version control deployment repo gareth and credit
 
 ### Issues 
 
-   I am aware that I tend to use the past participle in my commit messages. I continue working on developing thehabit of using the imperative mode instead. 
+1. The site's planned colour scheme was changed multiple times to accommodate contrast ratios for better accessibility.
+2.  I am aware that I tend to use the past participle in my commit messages. I continue working on developing thehabit of using the imperative mode instead. 
+3.  
 
 
 todo create table in markdown generator for test types
@@ -125,7 +142,7 @@ This was carried out at a relatively early stage.
 
 ## Issues
 1. Fix button issue: used this to make button: https://www.w3schools.com/howto/howto_css_center_button.asp
-however the button did not open link in new window despite target _blank . The following website helped me fix this issue: https://medium.com/design-code-repository/a-vs-button-b859547cae4d
+however the button did not open link in new window despite target _blank . The following website helped resolve this issue: https://medium.com/design-code-repository/a-vs-button-b859547cae4d 
 
 
 
@@ -134,20 +151,7 @@ however the button did not open link in new window despite target _blank . The f
 
 
 
-## Design
-I created a basic wireframe, only for desktops. This served to give me a basic idea, leaving some room for modifications later.
 
-![](docs/wireframe-1.png)
-![](docs/wireframe-2.png)
-![](docs/wireframe-3.png)
-
-There have been some deviations from this wireframe due to: 
-
-* The learning process: I learnt about features along the way that I was not aware of at the time of creating the wireframe. E.g There are a lot more div wrappers than originally planned.
-
-* some features worked better than initially planned from a user experience perspective. An example is the meditation texts and downloadable PDFs on the meditate page.
-
-The site's colour scheme was changed multiple times to accommodate contrast ratios for better accessibility.
 
 
 
