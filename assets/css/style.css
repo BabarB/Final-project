@@ -410,7 +410,7 @@ footer {
     padding-left: 20px;
 /* Content form elements for tablet ends here */
 }
-
+}
 
 /* Media query ipad ends here. */
 
@@ -425,6 +425,7 @@ footer {
   #text-container {
     margin-left: 50px;
   }
+  
   #audio-main-container {
     max-width: 50%;
   }
