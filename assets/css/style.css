@@ -176,6 +176,13 @@ main p {
   text-align: justify;
   text-justify: auto;
 }
+
+/* Thank-you page */
+#thanks, #thanks-p {
+    text-align: center;
+    margin-top: 30px;
+}
+
 /* Audio elements mobile */
 #meditate-main-content-box h1 {
   margin-top: 100px;
