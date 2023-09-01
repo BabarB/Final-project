@@ -28,25 +28,29 @@ Links to social media sites are located in the footer. For my own privacy, I use
 
 1. Index.html
    
-   On the landing page, visitors will find information about meditation's ability to tackle shopping addiction. The first text is fairly short and uses a personal, question format to raise the immediate interest of those affected. If this resonates with them, they can click the call to action button straight away to land on the "Meditate" page. Undecisive visitors can read a text with further information, after which the same call to action button repeats for their convenience (i.e. to avoid having to scroll up again). This is another example of redundancy facilitating user experience, with the UX strategic pane impacting on the structural pane.
+   On the landing page, visitors will find information about meditation's ability to tackle shopping addiction. The first heading raises interest,followed by more question headings and uses a personal, question format to identify if the site is relevant to the user. If the questions resonate with them, they can click the call to action button straight away to land on the "Meditate" page. Undecisive visitors can read a text with further information, after which the same call to action button repeats for their convenience (i.e. to avoid having to scroll up again). This is another example of redundancy facilitating user experience: the UX strategic pane impacti on the structural pane.
 
 2. Meditate.html
    
-   This is the main page of the website where the users can use the actual service. If for any reason the visitor prefers the sript, these can be downloaded as pdf or read directly in the browser.
+   This is the main page of the website where the actual service can be used. The meditation audios are accessible through the browser's built-in media player.
     
     Consistency across the site is very iportant for good user experience. Therefore, this page has an identical structure with the home page: main text to the left, image to the right, further reading by scrolling down.
     Hearing impaired users, or those who prefer to read the text for themselves, are able to download the scripts of the files or read the scripts directly in the browser.
+
 3. Contact.html
 
-     This  has a simple contact form to enable visitors to contact the site owner by email.
-??? Will it be like home and meditate???
-Daisy best practice? New page on submitting contact form?
+     This  has a simple contact form to enable visitors to contact the site owner by email. Required fields are:
+     
+  *  first name: some users prefer to stay anonymus
+  *  email address: so their email can be replied
+  *  message block: to identify bots
 
 ### Features left to implement
 
  1. Styled 404 page: this is important for both human visitors and browser bots to crawl the site correctly. Currently the 404 page is automatically provided by Github.
  2. User login: this requires a backend including a user database to check user credentials, and we have not reached this stage yet.
- 3. Audio controls: the browser default audio controls are really basic and do not contribute to a good user experience Due to tme constrainst and focusing on the MVP, I decided to implement those and include short instructions for the user as a workaround. Current technologies offer better embedded audio players.
+ 3. Audio controls: the browser default audio controls are basic and do not reflect to a good user experience: Play and pause are on the same button, the volume is muted by default. Due to time constrainst and focusing on the MVP, I still used the browser audio and included short instructions to the user as a workaround. Current technologies offer better embedded audio players.
+ 4. Form dump: this 
 
 
 
