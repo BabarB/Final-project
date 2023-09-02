@@ -54,7 +54,8 @@ Following the same content-left-picture-right structure, the contact site has a 
 1. Styled 404 page: a 404 is important for both human visitors and [browser bots to crawl the site correctly](https://seosly.com/blog/do-404-errors-hurt-seo/#:~:text=Yes%2C%20404%20errors%20can%20impact,crawling%20these%20non%2Dexistent%20pages.). Currently the 404 page is automatically provided by Github.
 2. User login: this requires a backend including a user database to check user credentials, the learning has not reached this stage yet.
 3. Audio controls: the browser default audio controls are basic and do not reflect to a good user experience: Play and pause are on the same button, the volume is muted by default. For learning purposes, the browser default audio was used. Current technologies offer better embedded audio players.
-1. The footer contact details section provides dummy details. As mentioned before, it is a placeholder for data handling and cookie policies. Displaying an email address on a public website is not good practice. Visitors should therefore use the contact form instead. The social media links can also be swapped to actual ones once the service provider is no longer an imaginary one. 
+4. The footer contact details section provides dummy details. As mentioned before, it is a placeholder for data handling and cookie policies. Displaying an email address on a public website is not good practice. Visitors should therefore use the contact form instead. The social media links can also be swapped to actual ones once the service provider is no longer an imaginary one. 
+5. The site's performance would be better 
 
 ## Testing
 
@@ -108,12 +109,22 @@ For generating the favicon used the following generator: https://favicon.io/favi
 1. Button issue: to make the landing page's buttons, [this tutorial](https://www.w3schools.com/howto/howto_css_center_button.asp) was used.
 However the button did not open link in new window despite target _blank . [This website ](https://medium.com/design-code-repository/a-vs-button-b859547cae4d ) helped resolve this issue: using an anchor tag instead of a button tag did the trick.
 
-1. Wave threw an error because of the empty form label in the nav toggle. 
-![](docs/wave-error.png)
+2. Wave threw an error because of the empty form label in the nav toggle.
+    
+    ![](docs/wave-error.png)
 Methods used to fix: give an aria label to the nav and the nav label. This did not fix the error. 
 I left it as it is, due to too much overhead to fix the issue, and because this part of the code was done based on CI's tutorial (see credits). 
 
 1. Having run it through the Wave tool, the site's planned colour scheme was changed multiple times to accommodate contrast ratios for better accessibility.
-2. The code validators came back with lots of error messages at first, these however became less frequent as I progressed. 
-3. I am aware that I tend to use the past participle in my commit messages. I continue working on developing the habit of using the imperative mode instead.
+
+2. Lighhouse's performance initially scored 92% as I only gave images a width of 100%:
+   
+
+   ![](docs/lighhouse-complains.jpg)
+   Because I was aiming for a lighthouse score over 90%, this test was considered as passed, but therewas room for improvement. Giving the images a height of 100% seemed to resolve the issue and resulted in a more desirable lighthouse score:
+   ![](docs/lighthouse-final-score.jpg)
+   
+5. The code validators came back with lots of error messages at first, these however became less frequent as I progressed. 
+   
+6. I am aware that I tend to use the past participle in my commit messages. I continue working on developing the habit of using the imperative mode instead.
 
