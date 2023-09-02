@@ -70,34 +70,37 @@ Links to social media sites are located in the footer. For my own privacy, I use
 
 
 ---
+
+
+
+
+
+## Testing
+
+**Purpose**|**Steps (method)**|**Expected**|**Result**
+:-----:|:-----:|:-----:|:-----:
+Ensure website is responsive|Check in devtools, then on actual mobile, tablet and laptop|Reponsive on all 3 devices|Pass
+Ensure social media links behave as expected|Click links |All open in a new tab|Pass
+Ensure mobile nav menu opens|Test in Dev Tools and on actual mobile|Nav menu opens OK|Pass
+Ensure internal links work|Click through entire site|No new tab except thank you page|Pass
+Ensure form required fields work|Dummy input with no @ in email, no message etc., tried submitting|Required field message|Pass
+Ensure contact form submits|Test submiit first in CI formdump, then create thank-you page|Formdump shows data, thank-you page opens|Pass
+Ensure audios work|Play audio |No autoplay, controls work|Pass
+Ensure correct PDFs download and open in new tab|Open PDFs|PDFs download or open in new tab, are readable|Pass
+Ensure code is clean and error free|W3C HTML and CSS validator|No errors|Pass
+Performance, best practies, accessibility and SEO check|Lighthouse in Dev Tools, in incognito mode|Results over 90%|Pass
+Page accessibility|Wave evaluator|No errors|1 error, see Issues
+
+
 ##  Deployment 
 
 The project wass deployed to Github early, on day 2, in order to enable me to test it live, on various devices, and gain feedback on progress. It was also useful because the Code Anywhere IDE often had connection issues. Continuous deployment prevented the loss of data and served as a backup of my work. 
 todo 3 parts here version control deployment repo gareth and credit
+ 
 
 
-### Issues 
 
-1. The site's planned colour scheme was changed multiple times to accommodate contrast ratios for better accessibility.
-2.  I am aware that I tend to use the past participle in my commit messages. I continue working on developing thehabit of using the imperative mode instead. 
-3.  
 
-### Testing
-
- **Test Type**  | **Purpose**                                      | **Methods Used**                  | **Result**                           
-----------------|--------------------------------------------------|-----------------------------------|--------------------------------------
- **Functional** | Check Responsivity On Multiple Devices           | Chrome Devtools, Real Devices     | Pages Are Responsive Without Overlay 
- **Lighthouse** | Performance, Accessibility, Best practices, SEO  | Chrome Devtools Lightouse feature | Results are above 90 %               
- **Form**       | Check If The Form Submits                        | Code Institute Formdump           | Data have been sent                  
- **Validators** | Check errors in code                             | W3C HTML and CSS validator        | No errors                            
-
-#### Functional Testing
-
-#### Lighthouse Testing
-
-#### Form Testing
-
-#### Validator Testing
 
 ## Credits
 
@@ -140,6 +143,8 @@ however the button did not open link in new window despite target _blank . The f
 2. Wave threw an error because of the empty form label. 
    screenshot!!!!
    However this has been done based on CI's tutorial. I have not been able to eliminate this, and the overhead of correcting this would have been too much.
+3. The site's planned colour scheme was changed multiple times to accommodate contrast ratios for better accessibility.
+4. I am aware that I tend to use the past participle in my commit messages. I continue working on developing the habit of using the imperative mode instead.
 
 
 
