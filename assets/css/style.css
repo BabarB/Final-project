@@ -349,6 +349,9 @@ margin-top: 100px;
 
   /*Main and items for tablet*/
 
+  #text-container ul {padding: 10px;
+}
+
   #main-container {
     flex-direction: row;
     justify-content: center;
@@ -424,6 +427,15 @@ margin-top: 100px;
         max-width: 1480px;
         margin: 0 auto;
         align-items: center;
+    }
+
+    #text-container {padding-top: 40px;
+        margin-top: 40px;
+        
+    }
+    #text-container ul {padding: 30px;
+        
+        
     }
 
   #audio-pic-container {

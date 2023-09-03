@@ -22,7 +22,8 @@ There have been some deviations from this wireframe due to:
 ### Navigation bar
 The navigation menu is inside the header. The site features a standard responsive navigation menu on the top right. On the top left, in line with user expectations, there is a site logo that takes the visitor back to the home page.
 A link redundancy (home as well as logo both redirect users to home) can be noted here, however this is often the case with websites, including the CI Walkthrough project. Because the average website visitor often encounters such redundancy, they will come to expect it. Therefore, considering the Strategy Pane, this redundancy will positively impact the structure of the website and contribute to a better user experience.
-The active page is underlined to show the visitor where they are. The hovered menu items also change colour to a theme colour of the site. The navigation is consistent on all devices, and is responsive. One exception is the mobile, where the toggling hamburger menu eliminates the need for underlined active pages.
+The active page is underlined to show the visitor where they are. The hovered menu items also change colour to a theme colour of the site. The navigation is consistent on all devices, and is responsive. In mobile view, the toggling hamburger menu eliminates the need for underlined active pages.
+
 ### The Main Content
 Due to the very specific audience of the site, the main page - where the service is found - is not the landing page but the meditate page. Navigation from the home page to the meditate page is therefore further facilitated by call to action buttons.
 
