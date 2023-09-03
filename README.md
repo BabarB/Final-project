@@ -27,28 +27,47 @@ The active page is underlined to show the visitor where they are. The hovered me
 ### The Main Content
 Due to the very specific audience of the site, the main page - where the service is found - is not the landing page but the meditate page. Navigation from the home page to the meditate page is therefore further facilitated by call to action buttons.
 
+![](docs/home-main-teaser.jpg)
+
 Across all pages, the main content consists of text on the left and an image on the right. It is not a background image, as its purpose is to emphasize the message of the site.
 ### Further readings section
 Repeating on both the landing and the meditate page for consistency, this is aimed at the user willing to scroll on, for need to learn more or because of needing the meditation scripts.
+
+![](docs/home-further-reading.jpg)
 ### The Footer
 This contains a basic contact details section. To comply with the European and German Data Protection regulation, this could be replaced by the Privacy Policy, the Cookie Policy, and the Impressum (for Germany). The law requires that these areas are easy to find on websites. It is a UX best practice for these links to be in the footer.
 Links to social media sites are located in the footer. For my own privacy, I used dummy links that open in a new window. The youtube channel, as I do not have one yet, points to my husband's channel with his permission, in case the assessors of the site fancy listening to some good music.
+
+![](docs/home-footer.jpg)
 ### Page specific features
 1. Index.html
 
 On the landing page, visitors will find information about meditation's ability to tackle shopping addiction. The first heading raises interest,followed by more question headings - teasers, if you like - and uses a personal, question format to identify if the site is relevant for the visitor. If the questions resonate with them, they can click the call to action button straight away to land on the "Meditate" page. Indecisive visitors can read a text with further information, after which the same call to action button repeats for their convenience (i.e. to avoid having to scroll up again). This is another example of redundancy facilitating user experience: the UX strategic pane impacting on the structural pane.
-2. Meditate.html
+
+
+1. Meditate.html
 
 This is the main page of the website where the actual service can be used. The meditation audios are accessible through the browser's built-in media player.
 Consistency across the site is very important for good user experience. Therefore, this page has an identical structure with the home page: main text to the left, image to the right, further reading by scrolling down.
+The woman in the featured image is looking towards the meditation audios, thus emphasizing them.
 Hearing impaired users, or those who prefer to read the text for themselves, are able to download the scripts of the files in PDF or read the scripts directly in the browser.
 
-3. Contact.html
+![](docs/meditate-general.jpg)
+
+1. Contact.html
 
 Following the same content-left-picture-right structure, the contact site has a simple contact form to enable visitors to contact the site owner by email. Required fields are:
 * first name: some users prefer to stay anonymous
 * email address: to identify genuine users
 * message block: as this is the purpose of a contact form.
+  
+![](docs/contact-general.jpg)
+1. Thank-you.html
+   
+
+This page does what it says on the tin: just notifies the user that the message has been sent. It has the nav menu and the footer for quick navigation back to the website.
+
+![](docs/general-thank-you.jpg)
 
 ### Features left to implement
 
@@ -56,13 +75,13 @@ Following the same content-left-picture-right structure, the contact site has a 
 2. User login: this requires a backend including a user database to check user credentials, the learning has not reached this stage yet.
 3. Audio controls: the browser default audio controls are basic and do not reflect to a good user experience: Play and pause are on the same button, the volume is muted by default. For learning purposes, the browser default audio was used. Current technologies offer better embedded audio players.
 4. The footer contact details section provides dummy details. As mentioned before, it is a placeholder for data handling and cookie policies. Displaying an email address on a public website is not good practice. Visitors should therefore use the contact form instead. The social media links can also be swapped to actual ones once the service provider is no longer an imaginary one. 
-5. The site's performance would be better 
+
 
 ## Testing
 
 **Purpose**|**Steps (method)**|**Expected**|**Result**
 :-----:|:-----:|:-----:|:-----:
-Ensure website is responsive|Check in dev tools, then on actual mobile, tablet and laptop|Responsive on all 3 devices|Pass
+Ensure website is responsive|Check in dev tools, then on actual mobile, tablet and laptop|Responsive on all 3 devices, content does not shrink|Pass
 Ensure social media links behave as expected|Click links |All open in a new tab|Pass
 Ensure mobile nav menu opens|Test in Dev Tools and on actual mobile|Nav menu opens OK|Pass
 Ensure internal links work|Click through entire site|No new tab except thank you page|Pass
@@ -73,7 +92,7 @@ Ensure correct PDFs download and open in new tab|Open PDFs|PDFs download or open
 Ensure code is clean and error free|W3C HTML and CSS validator|No errors|Pass
 Performance, best practices, accessibility and SEO check|Lighthouse in Dev Tools, in incognito mode|Results over 90%|Pass
 Page accessibility|Wave evaluator|No errors|1 error, see Issues
-Ensuring SEO best practices are met|Double check online if same best practices apply, check page tags|First heading is a h1, not too many h1s, h2, h3 etc headings always follow h1|Pass
+Ensuring SEO best practices are met|Double check online if same best practices apply, check page tags|First heading is a h1, not too many same ranking headings, headings in page sections keep ranking order|Pass
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 * From this project's repository, navigate to the settings tab
@@ -106,11 +125,12 @@ For generating the favicon used the following generator: https://favicon.io/favi
 2. For the pictures I used https://www.istockphoto.com/.
 3. The image on the Meditate site was AI generated by my husband.
 4. For the initial draft texts, these were written by ChatGPT, then rewritten by myself to sound more relevant and personal to the site's visitor.
+   
 ## Issues
 1. Button issue: to make the landing page's buttons, [this tutorial](https://www.w3schools.com/howto/howto_css_center_button.asp) was used.
 However the button did not open link in new window despite target _blank . [This website ](https://medium.com/design-code-repository/a-vs-button-b859547cae4d ) helped resolve this issue: using an anchor tag instead of a button tag did the trick.
 
-2. Wave threw an error because of the empty form label in the nav toggle.
+1. Wave threw an error because of the empty form label in the nav toggle.
     
     ![](docs/wave-error.png)
 Methods used to fix: give an aria label to the nav and the nav label. This did not fix the error. 
@@ -119,14 +139,11 @@ I left it as it is, due to too much overhead to fix the issue, and because this 
 1. Having run it through the Wave tool, the site's planned colour scheme was changed multiple times to accommodate contrast ratios for better accessibility.
 
 2. Lighhouse's performance initially scored 92% as I only gave images a width of 100%:
-   
 
    ![](docs/lighhouse-complains.jpg)
    Because I was aiming for a lighthouse score over 90%, this test was considered as passed, but therewas room for improvement. Giving the images a height of 100% seemed to resolve the issue and resulted in a more desirable lighthouse score:
    ![](docs/lighthouse-final-score.jpg)
-   
-5. The code validators came back with lots of error messages at first, these however became less frequent as I progressed. 
-6. I noticed just before the project finish that the hero image on the home page shrank slightly. This could be fixed by removind side paddings from the adjacent list items in the media query.
-   
-7. I am aware that I tend to use the past participle in my commit messages. I continue working on developing the habit of using the imperative mode instead.
+3. The code validators came back with lots of error messages at first, these however became less frequent as I progressed. 
+4. I noticed just before the project finish that the hero image on the home page shrank slightly. This could be fixed by removing side paddings from the adjacent list items in the media query.
+5. I am aware that I tend to use the past participle in my commit messages. I continue working on developing the habit of using the imperative mode instead.
 
