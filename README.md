@@ -126,6 +126,7 @@ I left it as it is, due to too much overhead to fix the issue, and because this 
    ![](docs/lighthouse-final-score.jpg)
    
 5. The code validators came back with lots of error messages at first, these however became less frequent as I progressed. 
+6. I noticed just before the project finish that the hero image on the home page shrank slightly. This could be fixed by removind side paddings from the adjacent list items in the media query.
    
-6. I am aware that I tend to use the past participle in my commit messages. I continue working on developing the habit of using the imperative mode instead.
+7. I am aware that I tend to use the past participle in my commit messages. I continue working on developing the habit of using the imperative mode instead.
 
