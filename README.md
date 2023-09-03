@@ -1,5 +1,5 @@
 # Declutter!
-Todo https://ui.dev/amiresponsive
+
 
 Declutter! is the first rough version of a project I would like to extend in the future. The target audience is people with shopping addiction, to which the website offers meditation as a temporary solution. I have encountered people suffering from shopping addiction in my family and previous career. As regular meditator I strongly believe that this could be the answer for them.
 The website was coded using the mobile first principle: following coding for mobile, a media query was added for laptop and larger screens. 
@@ -21,7 +21,9 @@ There have been some deviations from this wireframe due to:
 ## Features
 ### Navigation bar
 The navigation menu is inside the header. The site features a standard responsive navigation menu on the top right. On the top left, in line with user expectations, there is a site logo that takes the visitor back to the home page.
+
 A link redundancy (home as well as logo both redirect users to home) can be noted here, however this is often the case with websites, including the CI Walkthrough project. Because the average website visitor often encounters such redundancy, they will come to expect it. Therefore, considering the Strategy Pane, this redundancy will positively impact the structure of the website and contribute to a better user experience.
+
 The active page is underlined to show the visitor where they are. The hovered menu items also change colour to a theme colour of the site. The navigation is consistent on all devices, and is responsive. In mobile view, the toggling hamburger menu eliminates the need for underlined active pages.
 
 ### The Main Content
@@ -31,38 +33,46 @@ Due to the very specific audience of the site, the main page - where the service
 
 Across all pages, the main content consists of text on the left and an image on the right. It is not a background image, as its purpose is to emphasize the message of the site.
 ### Further readings section
-Repeating on both the landing and the meditate page for consistency, this is aimed at the user willing to scroll on, for need to learn more or because of needing the meditation scripts.
+Repeating on both the landing and the meditate page for consistency, this is aimed at the user willing to scroll on if they wish to learn more, or if they need the meditation scripts.
 
 ![](docs/home-further-reading.jpg)
 ### The Footer
 This contains a basic contact details section. To comply with the European and German Data Protection regulation, this could be replaced by the Privacy Policy, the Cookie Policy, and the Impressum (for Germany). The law requires that these areas are easy to find on websites. It is a UX best practice for these links to be in the footer.
+
+
 Links to social media sites are located in the footer. For my own privacy, I used dummy links that open in a new window. The youtube channel, as I do not have one yet, points to my husband's channel with his permission, in case the assessors of the site fancy listening to some good music.
 
 ![](docs/home-footer.jpg)
 ### Page specific features
 1. Index.html
 
-On the landing page, visitors will find information about meditation's ability to tackle shopping addiction. The first heading raises interest,followed by more question headings - teasers, if you like - and uses a personal, question format to identify if the site is relevant for the visitor. If the questions resonate with them, they can click the call to action button straight away to land on the "Meditate" page. Indecisive visitors can read a text with further information, after which the same call to action button repeats for their convenience (i.e. to avoid having to scroll up again). This is another example of redundancy facilitating user experience: the UX strategic pane impacting on the structural pane.
+On the landing page, visitors will find information about meditation's ability to tackle shopping addiction. 
+
+The first heading raises interest,followed by more question headings - teasers, if you like - and uses a personal, question format to identify if the site is relevant for the visitor. If the questions resonate with them, they can click the call to action button straight away to land on the "Meditate" page. Indecisive visitors can read a text with further information, after which the same call to action button repeats for their convenience (i.e. to avoid having to scroll up again). This is another example of redundancy facilitating user experience: the UX strategic pane impacting on the structural pane.
 
 
-1. Meditate.html
+2. Meditate.html
 
 This is the main page of the website where the actual service can be used. The meditation audios are accessible through the browser's built-in media player.
+
 Consistency across the site is very important for good user experience. Therefore, this page has an identical structure with the home page: main text to the left, image to the right, further reading by scrolling down.
+
 The woman in the featured image is looking towards the meditation audios, thus emphasizing them.
 Hearing impaired users, or those who prefer to read the text for themselves, are able to download the scripts of the files in PDF or read the scripts directly in the browser.
 
 ![](docs/meditate-general.jpg)
 
-1. Contact.html
+3. Contact.html
 
-Following the same content-left-picture-right structure, the contact site has a simple contact form to enable visitors to contact the site owner by email. Required fields are:
+Following the same content-left-picture-right structure, this page has a simple contact form to enable visitors to get in touch by email. Required fields are:
 * first name: some users prefer to stay anonymous
 * email address: to identify genuine users
 * message block: as this is the purpose of a contact form.
   
 ![](docs/contact-general.jpg)
-1. Thank-you.html
+
+
+4. Thank-you.html
    
 
 This page does what it says on the tin: just notifies the user that the message has been sent. It has the nav menu and the footer for quick navigation back to the website.
@@ -120,7 +130,7 @@ Live link to the site: https://babarb.github.io/portfolio-project-1/
 ### Media
 1. For the favicon i used [Daisy McGirr's youtube video](https://www.youtube.com/watch?v=W809I-d9xTg).
 
-For generating the favicon used the following generator: https://favicon.io/favicon-generator/
+    For generating the favicon used the following generator: https://favicon.io/favicon-generator/
 
 2. For the pictures I used https://www.istockphoto.com/.
 3. The image on the Meditate site was AI generated by my husband.
@@ -133,15 +143,18 @@ However the button did not open link in new window despite target _blank . [This
 1. Wave threw an error because of the empty form label in the nav toggle.
     
     ![](docs/wave-error.png)
-Methods used to fix: give an aria label to the nav and the nav label. This did not fix the error. 
-I left it as it is, due to too much overhead to fix the issue, and because this part of the code was done based on CI's tutorial (see credits). 
+
+    Methods used to fix: give an aria label to the nav and the nav label. This did not fix the error. 
+    I left it as it is, due to too much overhead to fix the issue, and because this part of the code was done based on CI's tutorial (see credits). 
 
 1. Having run it through the Wave tool, the site's planned colour scheme was changed multiple times to accommodate contrast ratios for better accessibility.
 
 2. Lighhouse's performance initially scored 92% as I only gave images a width of 100%:
 
    ![](docs/lighhouse-complains.jpg)
+
    Because I was aiming for a lighthouse score over 90%, this test was considered as passed, but therewas room for improvement. Giving the images a height of 100% seemed to resolve the issue and resulted in a more desirable lighthouse score:
+   
    ![](docs/lighthouse-final-score.jpg)
 3. The code validators came back with lots of error messages at first, these however became less frequent as I progressed. 
 4. I noticed just before the project finish that the hero image on the home page shrank slightly. This could be fixed by removing side paddings from the adjacent list items in the media query.
