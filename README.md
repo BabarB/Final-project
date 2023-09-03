@@ -149,11 +149,11 @@ However the button did not open link in new window despite target _blank . [This
 
 1. Having run it through the Wave tool, the site's planned colour scheme was changed multiple times to accommodate contrast ratios for better accessibility.
 
-2. Lighhouse's performance initially scored 92% as I only gave images a width of 100%:
+2. Lighthouse's performance initially scored 92% as I only gave images a width of 100%:
 
    ![](docs/lighhouse-complains.jpg)
 
-   Because I was aiming for a lighthouse score over 90%, this test was considered as passed, but therewas room for improvement. Giving the images a height of 100% seemed to resolve the issue and resulted in a more desirable lighthouse score:
+   Because I was aiming for a lighthouse score over 90%, this test was considered as passed, but there was room for improvement. Giving the images a height of 100% seemed to resolve the issue and resulted in a more desirable lighthouse score:
    
    ![](docs/lighthouse-final-score.jpg)
 3. The code validators came back with lots of error messages at first, these however became less frequent as I progressed. 
