@@ -22,7 +22,7 @@ body {
   /* General styling for project */
   color: black;
   font-family: "Dosis", sans-serif;
-   background-color: lightgray;
+  background-color: lightgray;
 }
 
 /* Header */
@@ -52,7 +52,7 @@ h1 {
 
 img {
   width: 100%;
-height: 100%;
+  height: 100%;
 }
 
 #menu {
@@ -103,10 +103,9 @@ nav {
 
 /* Main content*/
 main {
- 
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
- padding-top: 75px;
+  padding-top: 75px;
 }
 
 #main-container,
@@ -114,7 +113,6 @@ main {
 #contact-main-container {
   display: flex;
   flex-direction: column; /* Stack the divs vertically on mobile */
-  
 }
 
 #text-container {
@@ -179,9 +177,10 @@ main p {
 }
 
 /* Thank-you page */
-#thanks, #thanks-p {
-    text-align: center;
-    margin-top: 30px;
+#thanks,
+#thanks-p {
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* Audio elements mobile */
@@ -301,7 +300,6 @@ footer {
     width: 100%;
     box-shadow: none;
     justify-content: end;
-    
   }
 
   #menu .active {
@@ -317,9 +315,8 @@ footer {
     margin-top: 0;
   }
 
-  #pic-container{
-margin-top: 100px;
-
+  #pic-container {
+    margin-top: 100px;
   }
 
   #menu {
@@ -349,8 +346,10 @@ margin-top: 100px;
 
   /*Main and items for tablet*/
 
-  #text-container ul {padding: 10px;
-}
+  /* Fix page shrink */
+  #text-container ul {
+    padding: 10px;
+  }
 
   #main-container {
     flex-direction: row;
@@ -359,8 +358,7 @@ margin-top: 100px;
 
   #text-container,
   #pic-container,
-  #form-inner-container
-  {
+  #form-inner-container {
     flex: 1;
   } /* Allow both divs to grow and take equal space */
 
@@ -368,10 +366,12 @@ margin-top: 100px;
     margin: 30px 30px;
   }
 
+  /* Still kept for airy feel of site and consistency */
   #main-container {
     margin-top: 100px;
-  } /* Still kept for air and consistency */
+  } 
 
+   /* Audio elements */
   #meditate-main-content-box {
     display: flex;
     align-items: flex-start;
@@ -422,22 +422,23 @@ margin-top: 100px;
 
 /* Media query for laptops and higher to align image  and make smaller */
 @media screen and (min-width: 1024px) {
+  main {
+    max-width: 1480px;
+    margin: 0 auto;
+    align-items: center;
+  }
 
-    main {
-        max-width: 1480px;
-        margin: 0 auto;
-        align-items: center;
-    }
+  /* Align content with image */
 
-    #text-container {padding-top: 40px;
-        margin-top: 40px;
-        
-    }
-    #text-container ul {padding: 30px;
-        
-        
-    }
+  #text-container {
+    padding-top: 40px;
+    margin-top: 40px;
+  }
+  #text-container ul {
+    padding: 30px;
+  }
 
+  /* Audio elements laptop */
   #audio-pic-container {
     padding: 20px;
     margin-top: 0px;
@@ -454,16 +455,16 @@ margin-top: 100px;
   .audio-mp3-title-container {
     width: 100%;
     margin: 20px;
+
+     /* Contact form elements laptop */
   }
-  #form-inner-container {padding: 0 40px;
+  #form-inner-container {
+    padding: 0 40px;
     margin: 0 40px;
-    
-}
+  }
 
-
-.content-box {
-   padding-left: 50px;
-   padding-top: 50px;
-}
-
+  .content-box {
+    padding-left: 50px;
+    padding-top: 50px;
+  }
 }
