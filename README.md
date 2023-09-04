@@ -140,7 +140,7 @@ Live link to the site: https://babarb.github.io/portfolio-project-1/
    
 ## Issues
 1. Button issue: to make the landing page's buttons, [this tutorial](https://www.w3schools.com/howto/howto_css_center_button.asp) was used.
-However the button did not open link in new window despite target _blank . [This website ](https://medium.com/design-code-repository/a-vs-button-b859547cae4d ) helped resolve this issue: using an anchor tag instead of a button tag did the trick.
+However the button did not open the link. [This website ](https://medium.com/design-code-repository/a-vs-button-b859547cae4d ) helped resolve this issue: using an anchor tag instead of a button tag did the trick.
 
 1. Wave threw an error because of the empty form label in the nav toggle.
     
