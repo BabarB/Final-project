@@ -1,5 +1,6 @@
 # Declutter!
 
+![](docs/am-i-responsive.jpg)
 
 Declutter! is the first rough version of a project I would like to extend in the future. The target audience is people with shopping addiction, to which the website offers meditation as a temporary solution. I have encountered people suffering from shopping addiction in my family and previous career. As regular meditator I strongly believe that this could be the answer for them.
 The website was coded using the mobile first principle: following coding for mobile, a media query was added for laptop and larger screens. 
@@ -48,7 +49,7 @@ Links to social media sites are located in the footer. For my own privacy, I use
 
 On the landing page, visitors will find information about meditation's ability to tackle shopping addiction. 
 
-The first heading raises interest,followed by more question headings - teasers, if you like - and uses a personal, question format to identify if the site is relevant for the visitor. If the questions resonate with them, they can click the call to action button straight away to land on the "Meditate" page. Indecisive visitors can read a text with further information, after which the same call to action button repeats for their convenience (i.e. to avoid having to scroll up again). This is another example of redundancy facilitating user experience: the UX strategic pane impacting on the structural pane.
+The first heading raises interest, followed by more question headings - teasers, if you like, and uses a personal, question format to identify if the site is relevant for the visitor. If the questions resonate with them, they can click the call to action button straight away to land on the "Meditate" page. Indecisive visitors can read a text with further information, after which the same call to action button repeats for their convenience (i.e. to avoid having to scroll up again). This is another example of redundancy facilitating user experience: the UX strategic pane impacting on the structural pane.
 
 
 2. Meditate.html
@@ -75,7 +76,7 @@ Following the same content-left-picture-right structure, this page has a simple 
 4. Thank-you.html
    
 
-This page does what it says on the tin: just notifies the user that the message has been sent. It has the nav menu and the footer for quick navigation back to the website.
+This page does what it says on the tin: just notifies the user that the message has been sent. It has the nav menu for quick navigation back to the website.
 
 ![](docs/general-thank-you.jpg)
 
@@ -83,7 +84,7 @@ This page does what it says on the tin: just notifies the user that the message 
 
 1. Styled 404 page: a 404 is important for both human visitors and [browser bots to crawl the site correctly](https://seosly.com/blog/do-404-errors-hurt-seo/#:~:text=Yes%2C%20404%20errors%20can%20impact,crawling%20these%20non%2Dexistent%20pages.). Currently the 404 page is automatically provided by Github.
 2. User login: this requires a backend including a user database to check user credentials, the learning has not reached this stage yet.
-3. Audio controls: the browser default audio controls are basic and do not reflect to a good user experience: Play and pause are on the same button, the volume is muted by default. For learning purposes, the browser default audio was used. Current technologies offer better embedded audio players.
+3. Audio controls: the browser default audio controls are basic and do not contribute to a good user experience: play and pause are the same button, the volume is muted by default. For learning purposes, the browser default audio was used. Current technologies offer better embedded audio players.
 4. The footer contact details section provides dummy details. As mentioned before, it is a placeholder for data handling and cookie policies. Displaying an email address on a public website is not good practice. Visitors should therefore use the contact form instead. The social media links can also be swapped to actual ones once the service provider is no longer an imaginary one. 
 
 
@@ -94,7 +95,7 @@ This page does what it says on the tin: just notifies the user that the message 
 Ensure website is responsive|Check in dev tools, then on actual mobile, tablet and laptop|Responsive on all 3 devices, content does not shrink|Pass
 Ensure social media links behave as expected|Click links |All open in a new tab|Pass
 Ensure mobile nav menu opens|Test in Dev Tools and on actual mobile|Nav menu opens OK|Pass
-Ensure internal links work|Click through entire site|No new tab except thank you page|Pass
+Ensure internal links work|Click through entire site|Open in same tab|Pass
 Ensure form required fields work|Dummy input with no @ in email, no message etc., tried submitting|Required field messages|Pass
 Ensure contact form submits|Test submit first in CI form dump, then created thank-you page|Form dump shows data, thank-you page opens|Pass
 Ensure audios work|Play audio |No autoplay, controls work|Pass
@@ -135,6 +136,7 @@ Live link to the site: https://babarb.github.io/portfolio-project-1/
 2. For the pictures I used https://www.istockphoto.com/.
 3. The image on the Meditate site was AI generated by my husband.
 4. For the initial draft texts, these were written by ChatGPT, then rewritten by myself to sound more relevant and personal to the site's visitor.
+5. For the initial image in this document, [this site](https://amiresponsive.co.uk/) was used.
    
 ## Issues
 1. Button issue: to make the landing page's buttons, [this tutorial](https://www.w3schools.com/howto/howto_css_center_button.asp) was used.
